@@ -1,0 +1,140 @@
+[
+  {
+    "id": "sediment",
+    "layer": "Physical change",
+    "top": 20,
+    "left": 10
+  },
+  {
+    "id": "beach",
+    "layer": "Physical change",
+    "top": 40,
+    "left": 20
+  },
+  {
+    "id": "benthos",
+    "layer": "Logs and debris",
+    "top": 60,
+    "left": 30
+  },
+  {
+    "id": "kelpocalypse",
+    "layer": "Logs and debris",
+    "top": 80,
+    "left": 40
+  },
+  {
+    "id": "foragers",
+    "layer": "Wildlife resurgence",
+    "top": 20,
+    "left": 50
+  },
+  {
+    "id": "sand pipers",
+    "layer": "Wildlife resurgence",
+    "top": 40,
+    "left": 60
+  },
+  {
+    "id": "exposed lakebed",
+    "layer": "Physical change",
+    "top": 60,
+    "left": 70
+  },
+  {
+    "id": "new forest",
+    "layer": "Physical change",
+    "top": 80,
+    "left": 80
+  },
+  {
+    "id": "migratory fish",
+    "layer": "Fish transformation",
+    "top": 20,
+    "left": 90
+  },
+  {
+    "id": "migratory fish 2",
+    "layer": "Fish transformation",
+    "top": 40,
+    "left": 10
+  },
+  {
+    "id": "anadromy",
+    "layer": "Fish transformation",
+    "top": 60,
+    "left": 20
+  },
+  {
+    "id": "high fish population",
+    "layer": "Fish transformation",
+    "top": 80,
+    "left": 30
+  },
+  {
+    "id": "lamprey",
+    "layer": "Fish transformation",
+    "top": 20,
+    "left": 40
+  },
+  {
+    "id": "dippers",
+    "layer": "Wildlife resurgence",
+    "top": 40,
+    "left": 50
+  },
+  {
+    "id": "eagles",
+    "layer": "Wildlife resurgence",
+    "top": 60,
+    "left": 60
+  },
+  {
+    "id": "otters",
+    "layer": "Wildlife resurgence",
+    "top": 80,
+    "left": 70
+  },
+  {
+    "id": "nutrients",
+    "layer": "In the water",
+    "top": 20,
+    "left": 80
+  },
+  {
+    "id": "road eaten",
+    "layer": "Physical change",
+    "top": 40,
+    "left": 90
+  },
+  {
+    "id": "seeds",
+    "layer": "Wildlife resurgence",
+    "top": 60,
+    "left": 10
+  },
+  {
+    "id": "log shelters",
+    "layer": "Logs and debris",
+    "top": 80,
+    "left": 20
+  },
+  {
+    "id": "log perches",
+    "layer": "Logs and debris",
+    "top": 20,
+    "left": 30
+  },
+  {
+    "id": "trapped animals",
+    "layer": "Wildlife resurgence",
+    "top": 40,
+    "left": 40
+  },
+  {
+    "id": "mobile wood",
+    "layer": "Logs and debris",
+    "top": 60,
+    "left": 50
+  }
+]

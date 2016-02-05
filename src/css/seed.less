@@ -1,0 +1,32 @@
+@import "seattletimes";
+
+.image-container {
+  position: relative;
+  width: 400px;
+  margin: 800px 0;
+
+  img {
+    display: block;
+  }
+
+  .wash {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 5s ease-in-out;
+  }
+
+  &.animate .wash {
+    opacity: 1;
+  }
+
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+

@@ -1,0 +1,252 @@
+@import "values";
+@import "flexbox";
+
+//defensive coding
+* {
+  //border-box, you're the best
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+
+  //Safari, you're the worst
+  -webkit-tap-highlight-color: transparent;
+}
+
+//elements
+body {
+  color: @df-off-black;
+  font-family: @df-serif;
+  font-size: @df-text-base;
+  line-height: @df-line-base;
+  padding: 0;
+  margin: 0;
+  //remove 300ms click delay in Safari, AKA still the worst
+  touch-action: manipulation;
+}
+
+main {
+  display: block;
+}
+
+a {
+  color: @df-blue;
+  text-decoration: none;
+  outline: 0 !important;
+  &:hover {
+    color: @df-navy;
+  }
+  img {
+    border: none;
+  }
+}
+
+img, video, embed, object, iframe {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: @df-off-black;
+  margin: @df-line-base 0 (@df-line-base/2) 0;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 30 / 28;
+  letter-spacing: -0.5px;
+
+  @media @tablet {
+    font-size: 42px;
+    line-height: 46 / 42;
+    letter-spacing: -1px;
+  }
+}
+h2 {
+  font-size: 24px;
+  line-height: @df-line-base;
+}
+h3 {
+  font-size: 22px;
+  line-height: 23 / 22;
+}
+h4 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24 / 16;
+  margin: @df-line-base/2 0 0 0;
+}
+
+//header and menu
+nav.main-nav {
+  background: white;
+  border-bottom: 1px solid @df-light-gray;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, .1);
+  position: relative;
+  line-height: 1;
+
+  .wrapper {
+    max-width: 1020px;
+    margin: auto;
+    position: relative;
+    padding: 10px;
+    
+    @media @mobile {
+      padding: 6px;
+    }
+  }
+
+  .logo {
+    display: block;
+    vertical-align: middle;
+
+    img {
+      // width: 310px;
+      height: 24px;
+      max-height: 100%;
+
+      @media @mobile {
+        height: 18px;
+      }
+    }
+  }
+
+  .share.top {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    @media @tablet {
+      right: 4px;
+      width: auto !important;
+    }
+
+    label {
+      background: white !important;
+    }
+
+    @media @mobile {
+      top: 6px;
+
+      label {
+        span {
+          display: none;
+        }
+      }
+
+      .left {
+        margin-left: -275px !important;
+      }
+    }
+  }
+}
+
+.ad {
+  text-align: center;
+  padding: 16px 0;
+
+  &.square {
+    float: right;
+    width: 320px;
+
+    @media @mobile {
+      width: 100%;
+    }
+  }
+}
+
+.show-comments {
+  border: 1px solid @df-blue;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: @df-sans;
+  font-weight: bold;
+  font-size: 15px;
+  color: @df-blue;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.thin-div {
+  border-bottom: 1px solid @df-light-gray;
+  margin-bottom: 15px;
+  font-family: @df-sans;
+  margin: auto;
+  max-width: 900px;
+
+  .center {
+    position: relative;
+    top: 15px;
+    margin: auto;
+    width: 105px;
+    text-align: center;
+    font-size: 20px;
+    background: white;
+  }
+}
+
+.dont-miss {
+  .display-flex;
+  .flex-wrap(wrap);
+  margin: auto;
+  margin-top: 15px;
+  max-width: 900px;
+  font-size: 17px;
+  font-family: @df-sans;
+
+  .story {
+    .flex(0 0 25%);
+
+    @media @mobile {
+      .flex(1 1 50%)
+    }
+  }
+  .padded {
+    padding: 10px;
+  }
+  img {
+    width: 100%;
+  }
+  a {
+    color: @df-dark-gray;
+    transition: color .1s linear;
+
+    &:hover {
+      color: @df-blue;
+    }
+  }
+}
+
+footer.nav-bottom {
+  background: black;
+  opacity: 0.95;
+  padding: 8px 8px 4px 8px;
+  position: relative;
+  z-index: 99;
+
+  .logo {
+    float: left;
+    margin-right: 10px; 
+    
+    img {
+      margin-top: 5px;
+      height: 20px;
+    }
+  }
+
+  &::after {
+    clear: both;
+    content: " ";
+    display: block;
+  }
+
+  .share.bottom {
+    float: right;
+    margin-top: 2px;
+
+    label {
+      background: black !important;
+      color: white !important;
+    }
+  }
+}
