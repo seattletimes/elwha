@@ -20,7 +20,7 @@ var scrollNotified = [];
 var onScroll = function() {
   scrollNotified = scrollNotified.filter(function(sub) {
     var bounds = sub.el.getBoundingClientRect();
-    if (bounds.top > 0 && bounds.top < window.innerHeight / 2) {
+    if (bounds.top > 0 && bounds.bottom < window.innerHeight) {
       sub.callback();
       return false;
     }
@@ -82,7 +82,7 @@ faders.forEach(function(fader) {
       var elapsed = now - time;
       time = now;
       splot(radius);
-      radius += elapsed * .1;
+      radius += elapsed * .15;
       if (radius > canvas.width) return;
       requestAnimationFrame(frame);
     };
