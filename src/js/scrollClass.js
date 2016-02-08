@@ -1,4 +1,5 @@
 var $ = require("./lib/qsa");
+var debounce = require("./lib/debounce");
 
 var elements = $("[scroll-class]").map(function(target) {
   var area = target.getAttribute("scroll-trigger");
@@ -11,7 +12,7 @@ var elements = $("[scroll-class]").map(function(target) {
   return { target, area, className };
 });
 
-window.addEventListener("scroll", function() {
+window.addEventListener("scroll", debounce(function() {
   elements.forEach(function(scroll) {
     var bounds = scroll.area.getBoundingClientRect();
     if (bounds.top < window.innerHeight) {
@@ -20,4 +21,4 @@ window.addEventListener("scroll", function() {
       scroll.target.classList.remove(scroll.className);
     }
   })
-})
+}));
