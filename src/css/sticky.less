@@ -1,0 +1,21 @@
+.fixed-position {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+}
+
+.fixed-placeholder {
+  position: relative;
+
+  .aspect-inner {
+    height: 0;
+  }
+
+  [sticky]:not(.fixed-position) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

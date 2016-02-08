@@ -1,32 +1,30 @@
 @import "seattletimes";
 
-.image-container {
-  position: relative;
-  width: 400px;
-  margin: 800px 0;
+@import "header";
+@import "sticky";
+@import "wash";
 
-  img {
-    display: block;
+.upper-cutaway {
+  .aspect-inner {
+    padding-bottom: percentage(439 / 1200);
   }
+}
 
-  .wash {
+.mouth-fade {
+  position: relative;
+  width: 100%;
+
+  img.after {
     position: absolute;
     top: 0;
     left: 0;
     opacity: 0;
-    transition: all 5s ease-in-out;
+    transition: opacity .5s linear;
   }
 
-  &.animate .wash {
-    opacity: 1;
-  }
-
-  canvas {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  &.activate {
+    img.after {
+      opacity: 1;
+    }
   }
 }
-

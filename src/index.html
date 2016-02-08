@@ -9,14 +9,41 @@
   </head>
   <body>
 
-    <!-- simple fade -->
-    <% [
-        "WoodRat$_800x691.jpg",
-        "RiverOtter$_800x757.jpg",
-        "Beaver$_800x414.jpg"
-      ].forEach(function(url) { %>
-      <%= t.include("_animal.html", { url: url }) %>
-    <% }) %>
+    <header class="splash">
+      <video autoplay poster="./assets/video/poster.jpg" loop>
+        <source src="./assets/video/small.mp4" type="video/mp4">
+      </video>
+      <h1>Elwha: Après nous le déluge</h1>
+
+    </header>
+
+    <main>
+
+      <section class="upper">
+        <div class="fixed-placeholder upper-cutaway">
+          <div class="aspect-inner">
+            <div class="mouth-fade" sticky="section.upper" scroll-class="activate" scroll-trigger=".eagle">
+              <img class="before" src="./assets/scenes/RiverMouthBeforeC_1200x439.jpg">
+              <img class="after" src="./assets/scenes/RiverMouthAfterC_1200x439.jpg">
+            </div>
+          </div>
+        </div>
+
+        <%= t.include("_wash.html", { url: "animals/CreepingVole$_800x596.jpg" }) %>
+        <div class="eagle">
+          <%= t.include("_wash.html", { url: "animals/Eagle$_800x876.jpg" }) %>
+        </div>
+      </section>
+
+      <section class="middle">
+        <%= t.include("_wash.html", { url: "animals/HermitCrab$_800x558.jpg" }) %>
+      </section>
+
+      <section class="mouth">
+        <%= t.include("_wash.html", { url: "animals/DungenessCrab$_800x412.jpg" }) %>
+      </section>
+
+    </main>
 
     <script src="app.js" async></script>
     <% if (json.project.production) { %>
