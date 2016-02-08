@@ -19,15 +19,7 @@
 
     <main>
 
-      <section class="upper">
-        <div class="fixed-placeholder upper-cutaway">
-          <div class="aspect-inner">
-            <div class="mouth-fade" sticky="section.upper" scroll-class="activate" scroll-trigger=".eagle">
-              <img class="before" src="./assets/scenes/RiverMouthBeforeC_1200x439.jpg">
-              <img class="after" src="./assets/scenes/RiverMouthAfterC_1200x439.jpg">
-            </div>
-          </div>
-        </div>
+      <section class="upper river-zone">
 
         <%= t.include("_wash.html", { url: "animals/CreepingVole$_800x596.jpg" }) %>
         <div class="eagle">
@@ -35,11 +27,20 @@
         </div>
       </section>
 
-      <section class="middle">
+      <section class="middle river-zone">
         <%= t.include("_wash.html", { url: "animals/HermitCrab$_800x558.jpg" }) %>
       </section>
 
-      <section class="mouth">
+      <section class="mouth river-zone">
+        <div class="fixed-placeholder upper-cutaway">
+          <div class="aspect-inner">
+            <div class="mouth-fade" sticky="section.mouth.river-zone" scroll-class="activate" scroll-trigger=".eagle">
+              <img class="before" src="./assets/scenes/RiverMouthBeforeC_1200x439.jpg">
+              <img class="after" src="./assets/scenes/RiverMouthAfterC_1200x439.jpg">
+            </div>
+          </div>
+        </div>
+
         <%= t.include("_wash.html", { url: "animals/DungenessCrab$_800x412.jpg" }) %>
       </section>
 
