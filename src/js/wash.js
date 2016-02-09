@@ -1,7 +1,5 @@
-var $ = require("./lib/qsa");
-var closest = require("./lib/closest");
-
 var DROP_COUNT = 5;
+var DROP_SPEED = .15;
 
 var lookup = [];
 var tau = Math.PI * 2;
@@ -13,87 +11,84 @@ for (var i = 0; i < points; i++) {
   });
 }
 
-var faders = $(".image-container.wash");
+class WashEffect {
+  constructor(element) {
+    this.element = element;
+    this.image = element.querySelector("img.base");
+    this.canvas = element.querySelector("canvas");
+    this.context = this.canvas.getContext("2d");
+    this.playing = false;
+    this.time = 0;
+    this.pattern = null;
+    this.ready = false;
 
-var scrollNotified = [];
+    var source = new Image();
+    source.src = this.canvas.getAttribute("data-src");
 
-var onScroll = function() {
-  scrollNotified = scrollNotified.filter(function(sub) {
-    var bounds = sub.el.getBoundingClientRect();
-    if (bounds.top > 0 && bounds.bottom < window.innerHeight) {
-      sub.callback();
-      return false;
+    source.onload = () => this.imageLoaded(source);
+  }
+
+  imageLoaded(source) {
+    this.canvas.width = source.width;
+    this.canvas.height = source.height;
+
+    this.pattern = this.context.createPattern(source, "no-repeat");
+    this.context.fillStyle = this.pattern;
+    this.context.globalAlpha = 0.1;
+
+    this.ready = true;
+    if (this.pending) {
+      this.pending = false;
+      this.play();
     }
-    return true;
-  });
-};
+  }
 
-window.addEventListener("scroll", onScroll);
+  play() {
+    if (!this.ready) return this.pending = true;
+    if (this.animating) cancelRequestAnimationFrame(this.animating);
+    this.time = Date.now();
+    var self = this;
 
-var subscribe = function(el, callback) {
-  scrollNotified.push({ el, callback });
-  onScroll();
-};
-
-faders.forEach(function(fader) {
-
-  var image = fader.querySelector("img.base");
-  var canvas = fader.querySelector("canvas");
-  var context = canvas.getContext("2d");
-
-  var source = new Image();
-  source.src = canvas.getAttribute("data-src");
-
-  source.onload = function() {
-    canvas.width = source.width;
-    canvas.height = source.height;
-
-    var pattern = context.createPattern(source, "no-repeat");
-    context.fillStyle = pattern;
-    context.globalAlpha = 0.1;
+    this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
 
     var radius = 0;
     var drops = [];
     for (var i = 0; i < DROP_COUNT; i++) {
       drops.push({
-        x: canvas.width * Math.random(),
-        y: canvas.height * Math.random()
+        x: self.canvas.width * Math.random(),
+        y: self.canvas.height * Math.random()
       })
     }
     
     var splot = function(radius) {
       drops.forEach(function(point) {
-        context.beginPath();
-        context.moveTo(point.x + radius, point.y)
+        self.context.beginPath();
+        self.context.moveTo(point.x + radius, point.y)
         for (var i = 0; i < lookup.length; i++) {
           var j = 1 - (Math.random() * .2);
           var r = radius * j;
           var s = r * lookup[i].sin;
           var c = r * lookup[i].cos;
-          context.lineTo(point.x + c, point.y + s);
+          self.context.lineTo(point.x + c, point.y + s);
         }
         // context.arc(c.x, c.y, radius * (1 - i), 0, Math.PI * 2);
-        context.fill();
+        self.context.fill();
       });
     };
 
     var frame = function() {
       var now = Date.now();
-      var elapsed = now - time;
-      time = now;
+      var elapsed = now - self.time;
+      self.time = now;
       splot(radius);
       radius += elapsed * .15;
-      if (radius > canvas.width) return;
-      requestAnimationFrame(frame);
+      if (radius > self.canvas.width) return;
+      self.animating = requestAnimationFrame(frame);
     };
 
-    var time;
-    subscribe(fader, function() {
-      time = Date.now();
-      frame();
-    });
-  };
+    frame();
+  }
+}
 
-});
-
-onScroll();
+module.exports = WashEffect;
+    

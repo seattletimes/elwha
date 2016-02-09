@@ -2,7 +2,7 @@
 // require("./lib/ads");
 // var track = require("./lib/tracking");
 
-require("./wash");
+require("./scrollWash");
 require("./sticky");
 require("./scrollClass");
 require("./headerVideo");

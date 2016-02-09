@@ -10,9 +10,11 @@
   <body>
 
     <header class="splash">
-      <video autoplay poster="./assets/video/poster.jpg" loop>
-        <source src="./assets/video/small.mp4" type="video/mp4">
-      </video>
+      <div class="aerial-video">
+        <video autoplay poster="./assets/video/poster.jpg" loop>
+          <source src="./assets/video/large.mp4" type="video/mp4">
+        </video>
+      </div>
       <h1>Elwha: Après nous le déluge</h1>
 
     </header>
@@ -20,27 +22,15 @@
     <main>
 
       <section class="upper river-zone">
-
-        <%= t.include("_wash.html", { url: "animals/CreepingVole$_800x596.jpg" }) %>
-        <%= t.include("_wash.html", { url: "animals/Eagle$_800x876.jpg" }) %>
-        
+        <%= t.include("_upper.html") %>        
       </section>
 
       <section class="middle river-zone">
-        <%= t.include("_wash.html", { url: "animals/HermitCrab$_800x558.jpg" }) %>
+        <%= t.include("_middle.html") %>
       </section>
 
       <section class="mouth river-zone">
-        <div class="fixed-placeholder upper-cutaway">
-          <div class="aspect-inner">
-            <div class="mouth-fade" sticky="section.mouth.river-zone" scroll-class="activate" scroll-trigger=".mouth.river-zone">
-              <img class="before" src="./assets/scenes/RiverMouthBeforeC_1200x439.jpg">
-              <img class="after" src="./assets/scenes/RiverMouthAfterC_1200x439.jpg">
-            </div>
-          </div>
-        </div>
-
-        <%= t.include("_wash.html", { url: "animals/DungenessCrab$_800x412.jpg" }) %>
+        <%= t.include("_mouth.html") %>
       </section>
 
     </main>
