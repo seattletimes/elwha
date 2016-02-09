@@ -1,0 +1,35 @@
+.upper.river-zone {
+  display: block;
+  height: 2000px; //TEMP
+
+  .upper-cutaway {
+    .aspect-inner {
+      padding-bottom: percentage(612 / 1200);
+      transition: all .2s ease-in-out;
+    }
+  }
+
+  .sliding-scene {
+      transition: all .6s ease-out;
+      transform: translateY(0%);
+
+    &.fixed-position {
+      transform: translateY(-50%);
+    }
+
+    &::before, &::after {
+      background: fade(black, 20%);
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 50%;
+      content: "";
+    }
+
+    .setZone(@start, @end, @attr) {
+      
+    }
+  }
+
+}

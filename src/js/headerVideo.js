@@ -8,8 +8,6 @@ var check = function() {
 
     aerial.removeEventListener("canplay", check);
 
-    // for (var key in aerial) logE(key)
-
     if (!aerial.currentTime) {
 
       var cv = canvid({

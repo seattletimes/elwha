@@ -1,0 +1,18 @@
+.mouth-fade {
+  position: relative;
+  width: 100%;
+
+  img.after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .5s linear;
+  }
+
+  &.activate {
+    img.after {
+      opacity: 1;
+    }
+  }
+}
