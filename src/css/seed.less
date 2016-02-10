@@ -13,6 +13,7 @@
 @import "upper";
 @import "middle";
 @import "lower";
+@import "mouth";
 
 .constrained {
   max-width: 800px;
@@ -27,6 +28,26 @@ h2 {
   display: block;
 }
 
-section.river-zone {
-  margin-bottom: 200px;
+.slider-container {
+  background: desaturate(lighten(@elwhaGreen, 30%), 20%);
+  padding: 20px;
+  border-radius: 20px;
+
+  image-slider {
+    max-width: 500px;
+    margin: auto;
+    display: block;
+  }
+
+  .caption {
+    font-size: 14px;
+    font-family: @df-sans;
+    padding-top: 20px;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
 }
