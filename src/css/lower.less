@@ -1,18 +1,54 @@
-.mouth-fade {
-  position: relative;
-  width: 100%;
+.lower.river-zone {
 
-  img.after {
+  .lower-cutaway {
+    margin-bottom: 20px;
+    .aspect-inner {
+      padding-bottom: percentage(439 / 1200 * .6);
+    }
+  }
+
+  .mouth-fade {
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0;
-    transition: opacity .5s linear;
-  }
+    width: 100%;
+    z-index: 999;
+    .transform(translateZ(0) scaleY(.6));
+    transform-origin: top;
+    
+    img {
+      display: block;
+    }
 
-  &.activate {
+    img.before {
+      transition: box-shadow .6s ease-in-out;
+      box-shadow: 0 8px 8px fade(black, 10%);
+    }
+
+    &.stuck img.before {
+      box-shadow: 0 8px 16px fade(black, 20%);
+    }
+
     img.after {
-      opacity: 1;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0.01;
+      transition: opacity .5s linear;
+      .transform(translateZ(0));
+    }
+
+    &.activate {
+      img.after {
+        opacity: 1;
+      }
     }
   }
+
+  .scroll-wash {
+    float: right;
+    max-width: 400px;
+    .transform(rotate(4deg));
+  }
+
 }

@@ -1,10 +1,18 @@
-<div class="fixed-placeholder upper-cutaway">
+<div class="fixed-placeholder lower-cutaway">
   <div class="aspect-inner">
-    <div class="mouth-fade" sticky="section.mouth.river-zone" scroll-class="activate" scroll-trigger=".mouth.river-zone">
+    <div class="mouth-fade" sticky="section.lower.river-zone" scroll-class="activate" scroll-trigger=".lower .after-deluge">
       <img class="before" src="./assets/scenes/RiverMouthBeforeC_1200x439.jpg">
       <img class="after" src="./assets/scenes/RiverMouthAfterC_1200x439.jpg">
     </div>
   </div>
 </div>
 
-<%= t.include("_wash.html", { url: "animals/DungenessCrab$_800x412.jpg" }) %>
+<div class="before-deluge">
+  <%= t.include("_wash.html", { url: "animals/DungenessCrab$_800x412.jpg" }) %>
+  <%= markdown.lorem %>
+</div>
+
+<div class="after-deluge">
+  <%= t.include("_wash.html", { url: "animals/SeaStar$_800x687.jpg" }) %>
+  <%= markdown.lorem %>
+</div>

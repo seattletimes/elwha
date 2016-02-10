@@ -1,5 +1,12 @@
 @import "seattletimes";
 
+@elwhaGreen: #326252;
+
+.transform(...) {
+  -webkit-transform: @arguments;
+  transform: @arguments;
+}
+
 @import "header";
 @import "sticky";
 @import "wash";
@@ -7,3 +14,19 @@
 @import "middle";
 @import "lower";
 
+.constrained {
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  background: @elwhaGreen;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  display: block;
+}
+
+section.river-zone {
+  margin-bottom: 200px;
+}

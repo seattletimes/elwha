@@ -10,6 +10,10 @@ var strings = {
   requestFullScreen: {
     on: document.body,
     props: ["webkitRequestFullscreen", "mozRequestFullScreen", "msRequestFullscreen", "requestFullscreen"]
+  },
+  transform: {
+    on: document.body.style,
+    props: ["transform", "webkitTransform"]
   }
 };
 

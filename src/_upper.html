@@ -1,7 +1,31 @@
 <div class="fixed-placeholder upper-cutaway">
   <div class="aspect-inner">
-    <div class="sliding-scene" sticky="section.upper.river-zone">
+    <div class="sliding-scene" data-zone="first">
       <img src="./assets/scenes/UpperRiverC_1200x612.jpg">
+      <div class="before"></div>
+      <div class="after"></div>
     </div>
   </div>
+</div>
+
+<div class="stages">
+
+  <div class="log-stage constrained" data-zone="upright">
+    <h3>Upright trees fall over</h3>
+    <%= t.include("_wash.html", { url: "animals/RiverOtter$_800x757.jpg" }) %>
+    <%= markdown.lorem %>
+  </div>
+
+  <div class="log-stage constrained" data-zone="falling">
+    <h3>Falling trees form logjams</h3>
+    <%= t.include("_wash.html", { url: "scenes/UpperRiverLogJam$_800x346.jpg" }) %>
+    <%= markdown.lorem %>
+  </div>
+
+  <div class="log-stage constrained" data-zone="island">
+    <h3>Islands piled with logs divide the streams</h3>
+    <%= t.include("_wash.html", { url: "scenes/UpperRiverIsland$_800x276.jpg" }) %>
+    <%= markdown.lorem %>
+  </div>
+
 </div>

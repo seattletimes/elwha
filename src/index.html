@@ -8,6 +8,7 @@
     <%= t.include("partials/_head.html") %>
   </head>
   <body>
+    <%= t.include("partials/_nav.html") %>
 
     <header class="splash">
       <div class="aerial-video">
@@ -21,19 +22,43 @@
 
     <main>
 
+      <section class="intro constrained">
+        <%= markdown.intro %>
+      </section>
+
+      <h2>The upper river: logs and streams</h2>
       <section class="upper river-zone">
         <%= t.include("_upper.html") %>        
       </section>
 
+      <h2>Clearing a path</h2>
       <section class="middle river-zone">
         <%= t.include("_middle.html") %>
       </section>
 
+      <h2>The mouth of the Elwha</h2>
       <section class="lower river-zone">
         <%= t.include("_lower.html") %>
       </section>
 
     </main>
+
+    <footer>
+      <div class="sources">
+        Contributing to this report were scientists convened for the 2015 Elwha River Science Symposium at the Olympic National Park campus of NatureBridge.
+
+        Particularly helpful were experts from The USGS; NOAA Fisheries; Washington State Department of Natural Resources, the Lower Elwha Klallam Tribe, National Park Service, US Fish and Wildlife Service and Coastal Watershed Institute. 
+      </div>
+
+      <ul class="credits">
+        <li> Reporting: Lynda Mapes
+        <li> Development: Thomas Wilburn
+        <li> Art: Mark Nowlin, Kelly Shea
+        <li> Page design: Frank Mina
+      </ul>
+    </footer>
+
+    <%= t.include("partials/_navBottom.html") %>
 
     <script src="app.js" async></script>
     <% if (json.project.production) { %>

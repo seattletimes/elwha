@@ -1,35 +1,64 @@
-.upper.river-zone {
-  display: block;
-  height: 2000px; //TEMP
+.upper-cutaway {
+  .aspect-inner {
+    padding-bottom: percentage(612 / 1200);
+    transition: all .2s ease-in-out;
+  }
+}
 
-  .upper-cutaway {
-    .aspect-inner {
-      padding-bottom: percentage(612 / 1200);
-      transition: all .2s ease-in-out;
+.sliding-scene {
+  transition: opacity .6s linear, box-shadow .5s ease-in-out;
+  .transform(translateZ(0) translateY(0%));
+  transform-origin: bottom;
+  z-index: 999;
+  width: 100%;
+  box-shadow: 0 2px 16px fade(black, 10%);
+
+  img {
+    display: block;
+    width: 100%;
+  }    
+
+  &.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    .transform(translateY(-70%));
+    box-shadow: 0 8px 16px fade(black, 20%);
+  }
+
+  .before, .after {
+    display: block;
+    background: fade(white, 50%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 0%;
+    height: 100%;
+    transition: width .4s ease-in-out;
+    .transform(translateZ(0));
+  }
+
+  .before { left: 0 }
+
+  .after { right: 0 }
+
+  .makeZone(@attr, @start, @length) {
+    &[data-zone=@{attr}] {
+      .before { width: @start }
+      .after { width: 100% - (@start + @length) }
     }
   }
 
-  .sliding-scene {
-      transition: all .6s ease-out;
-      transform: translateY(0%);
+  .makeZone("upright", 0%, 25%);
+  .makeZone("falling", 25%, 30%);
+  .makeZone("island", 60%, 40%);
+}
 
-    &.fixed-position {
-      transform: translateY(-50%);
-    }
-
-    &::before, &::after {
-      background: fade(black, 20%);
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      width: 50%;
-      content: "";
-    }
-
-    .setZone(@start, @end, @attr) {
-      
-    }
+.log-stage {
+  .scroll-wash {
+    float: right;
+    width: 400px;
+    max-width: 100%;
   }
-
 }

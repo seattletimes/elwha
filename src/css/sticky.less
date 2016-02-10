@@ -1,8 +1,15 @@
-.fixed-position {
+.stuck {
   position: fixed !important;
   top: 0;
   left: 0;
   max-width: 100%;
+  transition: opacity .2s linear;
+  opacity: 1;
+
+  &.hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
 
   img {
     max-width: 100%;
@@ -16,7 +23,7 @@
     height: 0;
   }
 
-  [sticky]:not(.fixed-position) {
+  [sticky]:not(.stuck) {
     position: absolute;
     top: 0;
     left: 0;

@@ -1,10 +1,10 @@
 .image-container {
   position: relative;
-  width: 400px;
-  margin: 200px 0;
+  max-width: 100%;
 
   img {
     display: block;
+    width: 100%;
   }
 
   .wash {
@@ -13,6 +13,8 @@
     left: 0;
     opacity: 0;
     transition: all 5s ease-in-out;
+    width: 100%;
+    height: 100%;
   }
 
   &.animate .wash {

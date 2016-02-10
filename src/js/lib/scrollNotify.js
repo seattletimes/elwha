@@ -1,7 +1,11 @@
 var scrollNotified = [];
 var noop = function() {};
 
-var subscribe = function(el, callback = noop, test = "visible") {
+var subscribe = function(el, test, callback = noop) {
+  if (typeof test == "function") {
+    callback = test;
+    test = "visible";
+  }
   scrollNotified.push({ el, callback, test });
   onScroll();
 };
@@ -9,6 +13,7 @@ var subscribe = function(el, callback = noop, test = "visible") {
 subscribe.VISIBLE = "visible";
 subscribe.ENTER = "enter";
 subscribe.MIDDLE = "middle";
+subscribe.PAST = "past";
 
 var onScroll = function() {
   scrollNotified = scrollNotified.filter(function(sub) {
@@ -25,6 +30,12 @@ var onScroll = function() {
         if (bounds.top > 0 && bounds.top < window.innerHeight * .5) {
           sub.callback();
           return false;
+        }
+      break;
+
+      case subscribe.PAST:
+        if (bounds.top < window.innerHeight * .5) {
+          sub.callback();
         }
       break;
 
