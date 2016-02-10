@@ -1,10 +1,11 @@
 var $ = require("./lib/qsa");
+var closest = require("./lib/closest");
 var debounce = require("./lib/debounce");
 var transform = require("./lib/prefixed").transform;
 
-var section = document.querySelector(".upper.river-zone");
 var cutaway = document.querySelector(".sliding-scene");
-var placeholder = document.querySelector(".upper-cutaway");
+var section = closest(cutaway, ".river-zone");
+var placeholder = closest(cutaway, ".logjam-scenery")
 var slices = $(".log-stage");
 
 var SHIFT_LIMIT = .7;

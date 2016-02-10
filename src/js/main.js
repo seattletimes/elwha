@@ -8,4 +8,4 @@ require("./scrollWash");
 require("./sticky");
 require("./scrollClass");
 require("./headerVideo");
-require("./upper");
+require("./logs");
