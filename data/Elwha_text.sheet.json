@@ -1,71 +1,121 @@
 {
-  "sediment": {
-    "text": "A slow motion avalanche of more than 26 million cubic yards of sediment has been moving through the river since dam removal to the near shore. About 20 to 30 percent of this material will remain in the river channel long term, mostly in ten to 60 foot tall terraces along the valley walls. About 60 percent of what’s expected to erode from behind the former dams is already out. This is the first big milestone of Elwha dam removal, the sediment pulse has largely passed and we are now getting back to a more natural condition. "
+  "upper_chatter": {
+    "zone": "upper",
+    "text": "Lake Mills used to pool here behind the 210-foot high dam, built in 1927 to produce more hydropower. The biggest buildup of sediment was here, behind the uppermost of the two dams. There were no ocean-going fish above this barrier for at least a century. Only resident fish, such as rainbow trout, were seen here. Two dams blocked 90 percent of salmon habitat in the river. "
   },
-  "beach": {
-    "text": "During the first three years of dam removal, sediment has occluded water quality and grown  Washington’s newest beach at the near shore, extended by now four football fields deep. The river bed is higher, and river channel wider."
+  "chinook": {
+    "zone": "upper",
+    "title": "Chinook salmon",
+    "text": "The biggest salmon in the river and unique in Puget Sound, Elwha chinook cruised right past the former Glines Canyon dam site just three days after it was blown out of their way. Three weeks later, they made it all the way to Elkhorn, muscling through the Goblin Gate and the Grand Canyon of the Elwha, to the river's headwaters at the feet of Mount Olympus. More blasting planned this year to take out one last rock pile at the former Glines Canyon Dam site is expected to help more chinook reach the upper river."
   },
-  "benthos": {
-    "text": "Invertebrates in the benthos – river bottom – also cratered with populations dropping by about 95 percent because they were smothered and turbidity soared to 100 times normal levels. Fish changed their diet, with terrestrial sources surging to 50 percent of their diet from 10 percent before dam removal."
+  "rainbow_trout": {
+    "zone": "upper",
+    "title": "Rainbow trout go to sea",
+    "text": "Locked up like jewels in a box behind the dam, rainbow trout native to the Elwha are once again going to sea as steelhead. That means the Elwha is being recolonized not only by adult fish entering the lower river, but a cascade of out-migrating rainbows going to sea again as steelhead."
   },
-  "kelpocalypse": {
-    "text": "There’s been a kelpocalypse in the near shore. Sediment buried the bare cobble in the nearshore that kelp holdfasts used to root on. As a consequence, kelp has been virtually wiped out at the river mouth and to its east, the direction of the dominant current carrying the sediment plume. Hermit crabs, snails, sea urchins, starfish using the (once) rocky near shore also plummeted."
+  "mice": {
+    "zone": "upper",
+    "title": "Big action from small mammals: mice",
+    "text": "An eat or be eaten drama is revving up on the Elwha, where new life means more food, which in turns brings more species, and so on, and on. Shrews, voles, wood rats, jumping mice, Townsend's mice, deer mice, ermine and chipmunks have all been documented in the Elwha on the former reservoir lakebeds. "
   },
-  "foragers": {
-    "text": "A big spike in forage fish, including sand lance, sardines, night smelt and shad never seen in the area before has been documented in the near shore. Shrimp are turning up in nets in beach surveys in the estuary. Lamprey and red-sided shiners are back. Dungeness crab are back."
+  "helicoptering": {
+    "zone": "Upper",
+    "text": "The Lower Elwha Klallam Tribe choppered logs onto the former Lake Mills to create shelter for sprouting seeds and new plantings. The logs became magnets for small mammals and birds too, jump-starting the recolognization of the lakebeds by animals. "
   },
-  "sand pipers": {
-    "text": "Spotted sand pipers are colonizing the new shores."
+  "logjams": {
+    "zone": "logs",
+    "title": "New log jams create prime fish real estate",
+    "text": "What used to be Lake Aldwell is a now a broad flood plain the river winds through, carrying logs  and gnawing trees from its banks  as it goes. These stack up and jam, creating a braided river channel  as the river flows around them. Fish hide  in the  shady cover of the logs and lurk  in  plunge pools dug by the river  pouring over the  logs. The  river also is creating new  side channels fish use for spawning and rearing – a good thing because some of the old side channels filled in with sediment released by  dam removal. "
   },
-  "exposed lakebed": {
-    "text": "Dam removal also exposed 730 acres of former lakebed. Elk and other animals are exploring the former lakebeds, including critical winter range habitat.  Beaver are back in the former lake beds, doing their busy work."
+  "islands": {
+    "zone": "logs",
+    "title": "Logs become homes",
+    "text": "Logs on the banks and former reservoir beds have become islands of biodiversity. The logs create shelter for seeds to sprout, birds to perch, and a menagerie of small mammals to hide. \n\nThe birds bring more seeds and fertilizer; the plants create soil, and the small mammals are bioengineers in their own quiet way. They cache seeds that sprout, leave manure that feeds new ground, and in their forays feed the animals that eat them."
   },
-  "new forest": {
-    "text": "Alders, cottonwood are booming, growing a new forest where there used to be lakes."
+  "sandpipers": {
+    "zone": "upper",
+    "title": "A spotted sandpiper bonanza",
+    "text": "The swans that used to float in the still waters of Lake Mills have been replaced by skittering sandpipers flocking to the sandy shores exposed along the river and silt of the former lakebeds. Scientists are surprised at how quickly the whole Elwha river system is rebounding, from headwaters to mouth, on land and in the water. \"The big picture is all this biodiversity,\" said Rebecca McCaffery with the US Geological Survey. \"I'm out there catching mice scurrying around, and watching the salmon come up the river. It's such a dynamic environment.\""
   },
-  "migratory fish": {
-    "text": "The river is now once again a migratory corridor for fish.  For more than 100 years, two dams blocked 90 percent of fish habitat in the Elwha and populations declined by 98 percent."
+  "middle_chatter": {
+    "zone": "middle",
+    "text": "The middle river was the realm between the upper dam, Glines Canyon, and Elwha Dam, the lower of the two at 108 feet tall. No ocean-going fish lived here between the two dams for more than a century. Animals that feed on those fish were starved for nutrients from salmon. The river lacked the structure of gravel, sediment, and big wood that an un-dammed river would have conveyed from the upper watershed and its banks. "
   },
-  "migratory fish 2": {
-    "text": "Today Chinook, pink, sockeye, chum, steelhead and bull trout are all passing the former Elwha dam site. Chinook were above the Glines Canyon Dam site three days after the last blast taking it out in August, 2014.  Three weeks later, Chinook were detected as far as the headwaters of the river in Elkhorn."
+  "salmon": {
+    "zone": "middle",
+    "title": "Back and busy: salmon",
+    "text": "The middle Elwha and its tributaries went from no Coho at all before dam removal, to producing about 32,000 outgoing salmon fry in 2014. Chinook redd counts are up more than 350 percent and steelhead 300 percent from 2013 to 2015. Even sockeye have been spotted in Indian Creek, perhaps from landlocked Kokanee in Lake Sutherland, that have rediscovered their ability to go to sea."
   },
-  "anadromy": {
-    "text": "Coho have swarmed Indian Creek, a tributary of the Elwha. Anadromy, the capacity to migrate from freshwater to salt, has been awakened in bull trout and rainbow trout, formerly land locked species now going to sea again with the restoration of flow."
+  "beavers": {
+    "zone": "middle",
+    "title": "Beaver are engineering a comeback",
+    "text": "The reservoirs have drained away, exposing 330 acres of exposed silt, sand and gravel of the former Lake Aldwell, and about 400 acres at the former Lake Mills. Tracks of animals are often seen as animals return where their used to be lakes, including beaver, now back in both areas. They've got plenty to chew on: a new forest is rising in the fine sediments along the former lake shores, with alder, willow and cottonwood grown more than 8 feet high."
   },
-  "high fish population": {
-    "text": "Overall, fish populations are the highest since the 1980s, as adults returning from good ocean conditions encounter miles of new habitat. The first salmon progeny since dam removal will be back next year."
+  "elk": {
+    "zone": "middle",
+    "title": "Visiting their winter range: elk",
+    "text": "Roosevelt elk are visiting both former lakebeds. Biologists are a little surprised – and relieved that elk are browsing but not devouring more than 260,000 plantings including tasty woody shrubs put in the lakebeds as part of a seven year revegetation plan to crowd out weeds. They seem to particularly fancy Nootka rose, big leaf maple and bitter cherry."
   },
-  "lamprey": {
-    "text": "The first lamprey seen above Elwha Dam in generations and first sockeye in Indian Creek probably from kokanee in Lake Sutherland and first summer steelhead in Little River show the recovery is spreading to more species."
-  },
-  "dippers": {
-    "text": "American Dippers, aquatic songbirds that swim underwater, are fatter today than before dam removal because of the return of marine derived nutrients to their diet from salmon. They are also more likely to be resident species, rather than migrants, and are raise double clutches of young."
+  "lower_chatter": {
+    "zone": "lower",
+    "text": "The lower river was the only place available to salmon, once Elwha Dam was built five miles from the river mouth without fish passage in 1910. Entrepreneur Thomas Aldwell built Elwha Dam to generate hydropower to attract industry to the city of Port Angeles. Cheap hydropower helped jump start the economy on the Olympic Peninsula. But anadromous fish populations in the Elwha declined by 98 percent overall during the last century."
   },
   "eagles": {
-    "text": "Eagles are swarming the lower river near the mouth to feed on eulachon returned to the river, with 50 to 60 eagles reported last winter."
+    "zone": "lower",
+    "title": "After dam removal: eagle feeding frenzy",
+    "text": "The river's winters are alive with more eagles in the lower river than anyone can remember in decades, with 50 to 60 of the elegant birds feasting on eulachon. Also called candlefish, these fish, listed for protection under the Endangered Species Act, are enjoying a population boom. Lamprey, another prized native fish, are also in the river again. These fish could be strays from elsewhere in the Salish Sea, checking out the Elwha."
   },
-  "otters": {
-    "text": "River otters have more marine derived nutrients in their tissues now than before dam removal because of the return of salmon to their diet from the Elwha."
+  "dippers": {
+    "zone": "lower",
+    "title": "Dippers are flourishing",
+    "text": "Scientists studying American dipper, our only native aquatic songbird, have learned that with the return of salmon to the river the birds are bigger, and hatching two rounds of young a year. They also are more likely to stick around, instead of migrating. Samples of their feathers, blood and toenails show why: a boost of nutrients from salmon returned to the river. Surveys show otters are fattening up too."
   },
-  "nutrients": {
-    "text": "Nutrients in the middle and lower river and tributaries of Little River and Indian Creek show a 100 fold increase in nitrogen and phosphorous recorded in water samples, perhaps because of increased numbers of spawning salmon. These nutrients feed organisms in the river and the land when the river moves out of its channel in floods."
+  "invertebrates": {
+    "zone": "lower",
+    "title": "River bottom invertebrates hammered",
+    "text": "Scientists monitoring invertebrates in the river bottom documented a near total population crash as sediment smothered the lower river once the dams came down. These tiny animals at the base of the food chain including caddis flies, stone flies and mayflies are starting to recover now that the sediment pulse is passed. "
   },
-  "road eaten": {
-    "text": "The river has also eaten its first road, the Olympic Hot Springs Road, in its first flood in a century. The river chewed right through it during a January flood."
+  "mouth-before": {
+    "zone": "mouth",
+    "text": "Among the most dramatic changes in the watershed is playing out at the river mouth and near shore, where scientists are startled by the speed of the revolution underway. Once freed the river quickly chewed through some 27 million cubic yards of sediment that had been trapped behind the dams. Getting most of the sediment out completes the first major milestone of Elwha Dam removal. Restoring the flow of sediment is also rebuilding and restoring the beach at the river mouth and nearshore to a more natural condition. Now plants and animals there before the dams are coming back, too."
   },
-  "seeds": {
-    "text": "The river is also a transport system again for seeds from the upper watershed, turning up in the middle and lower reaches of the river, enabling the river to work as an agent of restoration, bringing plant life back to the former reservoir lakebeds."
+  "vegetation": {
+    "zone": "mouth",
+    "title": "Dams in place: the vegetation",
+    "text": "The beach where the river flowed into the Strait of Juan de Fuca was steeply sloped and covered with ankle-turning cobble, starved for sand locked up behind the dams. Offshore, lush kelp forests grew abundantly in the nearshore waters – 15 species in all. The kelp roots grabbed onto the cobbled bottom. Green and red algae also thrived. "
   },
-  "log shelters": {
-    "text": "Logs stacked on the former reservoir lake beds and strewn on the river terraces and islands also create sheltered protected areas where seeds of trees and shrubs, grasses and plants can sprout, sheltered from wind. These in turn, especially nitrogen fixing alders, enrich the soil. Plant litter also begins to build soil on the surface that holds moisture which helps more seeds sprout….etc."
+  "hermit_crabs": {
+    "zone": "mouth",
+    "title": "Hermit crabs",
+    "text": "Winners and losers are created in a big, quick habitat do-over, such as a rocky bottom changing in less than four years to a sandy one. Hermit crab were abundant in the near shore, snugged in the tiny spaces between the rocks. They got buried as the dams came down, and the Elwha transported about two thirds of 100 years' of sediment penned behind the dams, all the way from the mountains to the sea. "
   },
-  "log perches": {
-    "text": "Logs also create places for birds to perch – 28 species of birds are using new land that used to be underwater. They deposit seed in their droppings, furthering plant restoration out on the gravel bars and lake beds, beyond the range of seed rain from the forest."
+  "starfish": {
+    "zone": "mouth",
+    "title": "Starfish",
+    "text": "Once abundant on the rocky bottom, sea stars were already hit by sea star wasting syndrome and now are rare in the nearshore, with no habitat for a comeback. Sunlight loving green and brown algae died as the sediment plume flushed out on the prevailing current running east of the river mouth clouded the water. Kelp that loved the bare rocky substrate disappeared east of the river mouth too in a spectacular kelpocalypse."
   },
-  "trapped animals": {
-    "text": "In just four trap nights researchers live captured: deer mice, Keen’s mice, jumping mice, ermine, long tailed mice, bushy tailed woodrats, Oregon creeping and Townsend’s voles, chipmunks and shrews. These animals leave droppings which fertilize the ground. They also cache seeds they forget to come back and eat which sprout into plants."
+  "urchins": {
+    "zone": "mouth",
+    "title": "Sea urchins",
+    "text": "Urchins are at home on rocky shores and kelp beds where they graze on algae. These spiny denizens were displaced by the re-set of the near shore to sand. Their habitat disappeared along with their food source. Lots of animals were put out of work in the near shore as the deluge of sediment piled up on their habitat."
   },
-  "mobile wood": {
-    "text": "Not only is there much more wood in the channel than before dam removal (at least three times as much by one count) it is very mobile, with some stumps tracked traveling all the way from the middle of the Elwha to the Ediz Hook."
+  "mouth_after": {
+    "zone": "mouth",
+    "text": "Unplugging the Elwha birthed Washington's newest beach. The Elwha built it grain by grain, by moving a massive load of sediment from behind the dams. Winds, tides, and the prevailing current in the Strait of Juan de Fuca carried the sediment mostly east of the river mouth. The sand built up on the beach and piled up in drifts more than 15 feet deep on the bottom of the nearshore, below the tide line."
+  },
+  "forage_fish": {
+    "zone": "mouth",
+    "title": "Forage fish",
+    "text": "Sardines, anchovies, sand lance, eulachon, shad, surf smelt, herring and even fresh-water red-sided shiners, probably from Lake Sutherland, are showing up in the near shore in numbers not seen in years if ever. Forage fish fatten up bigger species of fish, including salmon. Ducks, eagles, and other birds also feast on them. "
+  },
+  "dungeness": {
+    "zone": "mouth",
+    "title": "Dungeness crab",
+    "text": "These tasty bottom feeders are cruising the sandy bottom of the near shore. Still not yet shown up – but greatly anticipated -- are clams. Elwha Klallam tribal elders speak fondly of the clams their elders used to gather at the beach before the dams were built. Some used to head to the beach after a winter storm, cued by great clouds of gulls gathering to feast, too. "
+  },
+  "shrimp": {
+    "zone": "mouth",
+    "title": "Shrimp... and more",
+    "text": "Biologists netting nearshore waters are finding all kinds of animals, including shrimp as the environment has transformed from a closed system, to an open one. Since dam removal shrimp are showing up for the first time in biologist's sampling nets. Other newcomers include a huge increase in night smelt, never seen in the region before. Even adult chum salmon are turning up in the nearshore."
   }
 }

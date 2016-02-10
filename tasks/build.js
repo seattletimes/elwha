@@ -38,7 +38,20 @@ module.exports = function(grunt) {
     return process(file, templateData, where);
   };
 
+  grunt.template.text = function(key) {
+    return grunt.data.json.Elwha_text[key];
+  };
+
   grunt.registerTask("build", "Processes index.html using shared data (if available)", function() {
+    
+    grunt.data.headers = {};
+    grunt.data.text = {};
+    for (var key in grunt.data.json.Elwha_text) {
+      var row = grunt.data.json.Elwha_text[key];
+      grunt.data.headers[key] = row.title;
+      grunt.data.text[key] = row.text;
+    }
+
     var files = grunt.file.expandMapping(["**/*.html", "!**/_*.html", "!js/**/*.html"], "build", { cwd: "src" });
     var data = Object.create(grunt.data || {});
     data.t = grunt.template;

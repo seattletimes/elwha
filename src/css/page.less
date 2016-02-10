@@ -1,0 +1,48 @@
+.constrained {
+  max-width: 800px;
+  margin: auto;
+}
+
+.byline {
+  font-family: @df-sans;
+  font-weight: bold;
+  font-size: 80%;
+}
+
+h2 {
+  background: @elwhaGreen;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  display: block;
+}
+
+.slider-container {
+  background: desaturate(lighten(@elwhaGreen, 30%), 20%);
+  padding: 20px;
+  border-radius: 20px;
+
+  image-slider {
+    max-width: 500px;
+    margin: auto;
+    display: block;
+  }
+
+  .caption {
+    font-size: 14px;
+    font-family: @df-sans;
+    padding-top: 20px;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+.point-of-interest {
+  .image-container {
+    width: 400px;
+  }
+}

@@ -79,14 +79,14 @@ class WashEffect {
     var check = function() {
       var bounds = self.canvas.getBoundingClientRect();
       return (bounds.top > window.innerHeight || bounds.bottom < 0);
-    }
+    };
 
     var pause = function() {
       setTimeout(function() {
         self.time = Date.now();
         frame();
       }, 200)
-    }
+    };
 
     var frame = function() {
       if (check()) return pause();
