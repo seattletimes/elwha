@@ -16,7 +16,7 @@ The $325 million Elwha experiment remains the biggest dam removal project ever a
 
 It's as if the whole watershed was waiting.
 
-<aside class="slider-container">
+<aside class="slider-container" id="slider">
   <image-slider>
     <img src="./assets/photos/Lower_Elwha_River_Dam_2010.jpg">
     <img src="./assets/photos/Lower_Elwha_River_DamSite_2016.jpg">
