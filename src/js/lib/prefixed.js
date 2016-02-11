@@ -14,6 +14,10 @@ var strings = {
   transform: {
     on: document.body.style,
     props: ["transform", "webkitTransform"]
+  },
+  transformOrigin: {
+    on: document.body.style,
+    props: ["transformOrigin", "webkitTransformOrigin"]
   }
 };
 

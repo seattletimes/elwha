@@ -1,12 +1,18 @@
+body {
+  // background-image: radial-gradient(white, lighten(desaturate(tan, 20%), 20%));
+  // background-size: cover;
+  // background-position: fixed;
+  font-size: 17px;
+}
+
 .constrained {
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
 .byline {
   font-family: @df-sans;
   color: @df-blue;
-  padding-top: 20px;
 }
 
 h2 {
@@ -19,12 +25,12 @@ h2 {
 }
 
 .slider-container {
-  background: desaturate(lighten(@elwhaGreen, 30%), 20%);
-  padding: 20px;
-  border-radius: 20px;
+  padding: 20px 0;
+  border-top: 1px solid @df-light-gray;
+  border-bottom: 1px solid @df-light-gray;
+  margin: 40px 0;
 
   image-slider {
-    max-width: 500px;
     margin: auto;
     display: block;
   }
@@ -32,7 +38,7 @@ h2 {
   .caption {
     font-size: 14px;
     font-family: @df-sans;
-    padding-top: 20px;
+    padding-top: 10px;
   }
 
   &::after {
@@ -42,19 +48,57 @@ h2 {
   }
 }
 
-.point-of-interest {
-  .image-container {
-    max-width: 400px;
-    float: right;
-    clear: right;
-    margin-left: 20px;
-    z-index: -1;
-    .transform(rotate(7deg));
+.section-header {
+  position: relative;
+  width: 100%;
+  margin-bottom: 40px;
+
+  h2 {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    .transform(translateY(-50%));
+    margin: 0;
+    padding: 0;
+    left: 0;
+    text-align: center;
+    z-index: 999;
+    background: transparent;
+    text-shadow: 0 4px 4px black;
+    font-size: 60px;
+    font-style: italic;
   }
 
-  &:nth-child(2n) .image-container {
-    float: left;
-    margin-right: 20px;
-    .transform(rotate(-7deg));
+  img {
+    width: 100%;
   }
+}
+
+.point-of-interest {
+  clear: right;
+
+  h4 {
+    margin-bottom: 0;
+    font-size: 18px;
+  }
+
+  p {
+    margin-top: 0;
+  }
+
+  .image-container {
+    float: right;
+    width: 40%;
+    margin: 0 20px 20px;
+    box-shadow: 4px 8px 16px fade(@elwhaGreen, 10%);
+    border-radius: 30px 0;
+    border: 10px solid white;
+    overflow: hidden;
+    .transform(rotate(4deg));
+  }
+
+  .content {
+    width: 70%;
+  }
+
 }

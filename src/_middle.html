@@ -1,23 +1,31 @@
 <div class="constrained">
   <p>
     <%= text.middle_chatter %>
+
+  <div class="selected-area">
   
-  <aside class="point-of-interest">
-    <h4><%= headers.salmon %></h4>
-    <%= t.include("_wash.html", { url: "animals/Kokanee$_800x305.jpg" }) %>
-    <p><%= text.salmon %></p>
-  </aside>
+    <aside class="point-of-interest">
+      <%= t.include("_delayWash.html", { url: "animals/Kokanee$_800x305.jpg" }) %>
+      <h4><%= headers.salmon %></h4>
+      <p><%= text.salmon %></p>
+    </aside>
 
-  <aside class="point-of-interest">
-    <h4><%= headers.beavers %></h4>
-    <%= t.include("_wash.html", { url: "animals/Beaver$_800x414.jpg" }) %>
-    <p><%= text.beavers %></p>
-  </aside>
+  </div>
 
-  <aside class="point-of-interest">
-    <h4><%= headers.elk %></h4>
-    <%= t.include("_wash.html", { url: "animals/RooseveltElk$_800x819.jpg" }) %>
-    <p><%= text.elk %></p>
-  </aside>
+  <div class="on-deck">
+
+    <aside class="point-of-interest">
+      <%= t.include("_delayWash.html", { url: "animals/Beaver$_800x414.jpg" }) %>
+      <h4><%= headers.beavers %></h4>
+      <p><%= text.beavers %></p>
+    </aside>
+
+    <aside class="point-of-interest">
+      <%= t.include("_delayWash.html", { url: "animals/RooseveltElk$_800x819.jpg" }) %>
+      <h4><%= headers.elk %></h4>
+      <p><%= text.elk %></p>
+    </aside>
+
+  </div>
 
 </div>

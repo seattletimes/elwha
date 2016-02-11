@@ -45,7 +45,7 @@ class WashEffect {
 
   play() {
     if (!this.ready) return this.pending = true;
-    if (this.animating) cancelRequestAnimationFrame(this.animating);
+    if (this.animating) cancelAnimationFrame(this.animating);
     this.time = Date.now();
     var self = this;
 
@@ -100,6 +100,12 @@ class WashEffect {
     };
 
     frame();
+  }
+
+  clear() {
+    if (this.animating) cancelAnimationFrame(this.animating);
+    this.animating = false;
+    this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
   }
 }
 

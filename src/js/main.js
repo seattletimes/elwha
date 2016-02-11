@@ -9,3 +9,4 @@ require("./sticky");
 require("./scrollClass");
 require("./headerVideo");
 require("./logs");
+require("./featuring");

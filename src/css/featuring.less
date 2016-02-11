@@ -1,0 +1,52 @@
+.toggle-section {
+  overflow: hidden;
+
+  .image-container {
+    border-radius: 100%;
+    width: 100%;
+    .transform(rotate(0));
+    margin: 0 0 10px;
+    padding: 0;
+  }
+
+  .selected-area {
+    float: left;
+    width: 70%;
+
+    .point-of-interest {
+      h4, p {
+        transition: opacity .5s linear;
+      }
+
+      &.faded h4, &.faded p {
+        opacity: 0.01;
+      }
+
+    }
+
+    .image-container {
+      z-index: 999;
+    }
+  }
+
+  .on-deck {
+    float: right;
+    width: 20%;
+
+    .point-of-interest {
+      transition: opacity .5s linear .5s;
+      &.faded {
+        opacity: 0.01;
+      }
+    }
+
+    h4 {
+      font-size: 14px;
+      line-height: 1.2;
+    }
+
+    p {
+      display: none;
+    }
+  }
+}

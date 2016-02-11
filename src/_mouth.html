@@ -7,7 +7,7 @@
   </div>
 </div>
 
-<div class="before-deluge constrained">
+<div class="before-deluge constrained featuring">
 
   <p><%= text.mouth_before %>
 
@@ -16,28 +16,37 @@
     <p><%= text.vegetation %></p>
   </aside>
 
+  <div class="selected-area">
 
-  <aside class="point-of-interest">
-    <h4><%= headers.hermit_crabs %></h4>
-    <%= t.include("_wash.html", { url: "animals/HermitCrab$_800x558.jpg" }) %>
-    <p><%= text.hermit_crabs %></p>
-  </aside>
+    <aside class="point-of-interest">
+      <h4><%= headers.hermit_crabs %></h4>
+      <%= t.include("_delayWash.html", { url: "animals/HermitCrab$_800x558.jpg" }) %>
+      <p><%= text.hermit_crabs %></p>
+    </aside>
 
-  <aside class="point-of-interest">
-    <h4><%= headers.starfish %></h4>
-    <%= t.include("_wash.html", { url: "animals/SeaStar$_800x687.jpg" }) %>
-    <p><%= text.starfish %></p>
-  </aside>
+  </div>
 
-  <aside class="point-of-interest">
-    <h4><%= headers.urchins %></h4>
-    <%= t.include("_wash.html", { url: "animals/SeaUrchin$_800x745.jpg" }) %>
-    <p><%= text.urchins %></p>
-  </aside>
+  <div class="on-deck">
+
+    <aside class="point-of-interest">
+      <h4><%= headers.starfish %></h4>
+      <%= t.include("_delayWash.html", { url: "animals/SeaStar$_800x687.jpg" }) %>
+      <p><%= text.starfish %></p>
+    </aside>
+
+    <aside class="point-of-interest">
+      <h4><%= headers.urchins %></h4>
+      <%= t.include("_delayWash.html", { url: "animals/SeaUrchin$_800x745.jpg" }) %>
+      <p><%= text.urchins %></p>
+    </aside>
+
+  </div>
 
 </div>
 
 <div class="after-deluge constrained">
+
+  <h3>After the dam</h3>
   
   <p>
     <%= text.mouth_after %>
