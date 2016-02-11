@@ -8,6 +8,10 @@ body {
 .constrained {
   max-width: 600px;
   margin: 0 auto;
+
+  @media @tablet {
+    padding: 0 8px;
+  }
 }
 
 .byline {
@@ -67,6 +71,12 @@ h2 {
     text-shadow: 0 4px 4px black;
     font-size: 60px;
     font-style: italic;
+
+    @media @mobile {
+      font-size: 36px;
+      line-height: 1.2;
+      padding: 0 20px;
+    }
   }
 
   img {
@@ -95,6 +105,15 @@ h2 {
     border: 10px solid white;
     overflow: hidden;
     .transform(rotate(4deg));
+
+    @media @mobile {
+      width: 100%;
+      float: none;
+      .transform(rotate(0));
+      margin: 20px 0;
+      border-radius: 0;
+      box-shadow: 0 8px 16px fade(@elwhaGreen, 10%);
+    }
   }
 
   .content {

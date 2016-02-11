@@ -3,7 +3,7 @@
   .mouth-cutaway {
     margin-bottom: 20px;
     .aspect-inner {
-      padding-bottom: percentage(439 / 1200 * .6);
+      padding-bottom: percentage(439 / 1200);
     }
   }
 
@@ -13,8 +13,19 @@
     left: 0;
     width: 100%;
     z-index: 9999;
-    .transform(translateZ(0) scaleY(.6));
     transform-origin: top;
+    overflow: hidden;
+
+    &::after {
+      position: absolute;
+      left: 30px;
+      bottom: 10px;
+      content: "Before dam removal";
+      // text-transform: uppercase;
+      color: @df-middle-gray;
+      font-size: 48px;
+      // font-family: @df-sans;
+    }
     
     img {
       display: block;
@@ -39,6 +50,10 @@
     }
 
     &.activate {
+      &::after {
+        content: "After dam removal";
+      }
+
       img.after {
         opacity: 1;
       }

@@ -13,6 +13,10 @@
     float: left;
     width: 70%;
 
+    @media @mobile {
+      width: 65%;
+    }
+
     .point-of-interest {
       h4, p {
         transition: opacity .5s linear;
@@ -33,6 +37,25 @@
     float: right;
     width: 20%;
 
+    @media @mobile {
+      width: 30%;
+      padding-top: 100px;
+      padding-bottom: 30px;
+      border-bottom: 1px solid @df-light-gray;
+
+      &::before {
+        content: "Tap to read";
+        color: @df-middle-gray;
+        text-transform: uppercase;
+        text-align: center;
+        display: block;
+        font-family: @df-sans;
+        border-bottom: 1px solid @df-light-gray;
+        margin-bottom: 30px;
+        padding-bottom: 10px;
+      }
+    }
+
     .point-of-interest {
       transition: opacity .5s linear .5s;
       &.faded {
@@ -43,6 +66,10 @@
     h4 {
       font-size: 14px;
       line-height: 1.2;
+
+      @media @mobile {
+        display: none;
+      }
     }
 
     p {
