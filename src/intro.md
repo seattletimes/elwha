@@ -1,6 +1,6 @@
-ELWHA RIVER — The Elwha watershed is booming with new life, after the world's largest dam removal anywhere.
+ELWHA RIVER — The Elwha watershed is booming with new life, after the world's largest dam removal.
 
-The first concrete went flying in September 2011, and Elwha Dam was out the following March. Glines Canyon Dam upriver tumbled for good in September 2014.Today the river roars through the tight rock canyon once plugged by Elwha Dam and surges past the bald rocky hill where the powerhouse stood. The hum of the generators is replaced by the river singing in full voice, shrugging off a century of confinement like it never happened. Nature's resurgence is visible everywhere. 
+The first concrete went flying in September 2011, and Elwha Dam was out the following March. Glines Canyon Dam upriver tumbled for good in September 2014. Today the river roars through the tight rock canyon once plugged by Elwha Dam, and surges past the bald rocky hill where the powerhouse stood. The hum of the generators is replaced by the river singing in full voice, shrugging off a century of confinement like it never happened. Nature's resurgence is visible everywhere. 
 
 "Big things can happen if people persevere," said Mike McHenry, biologist with the Lower Elwha Klallam Tribe, which got the ball rolling on dam removal when it was still thought a crazy idea. "Back in 1990, you ask somebody in Anywhere, USA, about dam removal," McHenry said, "They would have told you that you were nuts."
 
