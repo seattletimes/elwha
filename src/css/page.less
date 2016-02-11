@@ -1,12 +1,12 @@
 .constrained {
   max-width: 800px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .byline {
   font-family: @df-sans;
-  font-weight: bold;
-  font-size: 80%;
+  color: @df-blue;
+  padding-top: 20px;
 }
 
 h2 {
@@ -15,6 +15,7 @@ h2 {
   padding: 40px;
   text-align: center;
   display: block;
+  clear: both;
 }
 
 .slider-container {
@@ -43,6 +44,17 @@ h2 {
 
 .point-of-interest {
   .image-container {
-    width: 400px;
+    max-width: 400px;
+    float: right;
+    clear: right;
+    margin-left: 20px;
+    z-index: -1;
+    .transform(rotate(7deg));
+  }
+
+  &:nth-child(2n) .image-container {
+    float: left;
+    margin-right: 20px;
+    .transform(rotate(-7deg));
   }
 }
