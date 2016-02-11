@@ -16,16 +16,16 @@
   "mice": {
     "zone": "upper",
     "title": "Big action from small mammals: mice",
-    "text": "An eat or be eaten drama is revving up on the Elwha, where new life means more food, which in turns brings more species, and so on, and on. Shrews, voles, wood rats, jumping mice, Townsend's mice, deer mice, ermine and chipmunks have all been documented in the Elwha on the former reservoir lakebeds. "
+    "text": "An eat or be eaten drama is revving up on the Elwha, where new life means more food, which in turns brings more species, and so on, and on. Shrews, wood rats, jumping mice, Townsend's vole, deer mice, Keen's mice, ermine and chipmunks have all been documented in the Elwha on the former reservoir lake beds. "
   },
   "helicoptering": {
     "zone": "Upper",
-    "text": "The Lower Elwha Klallam Tribe choppered logs onto the former Lake Mills to create shelter for sprouting seeds and new plantings. The logs became magnets for small mammals and birds too, jump-starting the recolognization of the lakebeds by animals. "
+    "text": "The dams blocked not only salmon heading upstream, but logs and root wads  headed downstream. Especially behind Glines Canyon Dam, the upper of the two, wood that should have been distributed all throughout the river was stacked and stuck along the shores of Lake Mills. The  Lower Elwha Klallam Tribe used a helicopter to pick up logs stuck  against the former lakeshores and pile them in log jams on the former lakebed, to jumpstart a more natural habitat."
   },
   "logjams": {
     "zone": "logs",
     "title": "New log jams create prime fish real estate",
-    "text": "What used to be Lake Aldwell is a now a broad flood plain the river winds through, carrying logs  and gnawing trees from its banks  as it goes. These stack up and jam, creating a braided river channel  as the river flows around them. Fish hide  in the  shady cover of the logs and lurk  in  plunge pools dug by the river  pouring over the  logs. The  river also is creating new  side channels fish use for spawning and rearing – a good thing because some of the old side channels filled in with sediment released by  dam removal. "
+    "text": "What used to be Lake Aldwell is a now a broad floodplain the river winds through, carrying logs  and gnawing trees from its banks  as it goes. These stack up and jam, creating a braided river channel  as the river flows around them. Fish hide  in the  shady cover of the logs and lurk  in  plunge pools dug by the river  pouring over the  logs. The  river also is creating new  side channels fish use for spawning and rearing – a good thing because some of the old side channels filled in with sediment released by  dam removal. "
   },
   "islands": {
     "zone": "logs",
@@ -35,7 +35,7 @@
   "sandpipers": {
     "zone": "upper",
     "title": "A spotted sandpiper bonanza",
-    "text": "The swans that used to float in the still waters of Lake Mills have been replaced by skittering sandpipers flocking to the sandy shores exposed along the river and silt of the former lakebeds. Scientists are surprised at how quickly the whole Elwha river system is rebounding, from headwaters to mouth, on land and in the water. \"The big picture is all this biodiversity,\" said Rebecca McCaffery with the US Geological Survey. \"I'm out there catching mice scurrying around, and watching the salmon come up the river. It's such a dynamic environment.\""
+    "text": "The swans that used to float in the still waters of Lake Mills have been replaced by skittering sandpipers flocking to the sandy shores exposed along the river and silt of the former lake beds. Scientists are surprised at how quickly the whole Elwha river system is rebounding, from headwaters to mouth, on land and in the water. \"The big picture is all this biodiversity,\" said Rebecca McCaffery with the US Geological Survey. \"I'm out there catching mice scurrying around, and watching the salmon come up the river. It's such a dynamic environment.\""
   },
   "middle_chatter": {
     "zone": "middle",
@@ -49,16 +49,16 @@
   "beavers": {
     "zone": "middle",
     "title": "Beaver are engineering a comeback",
-    "text": "The reservoirs have drained away, exposing 330 acres of exposed silt, sand and gravel of the former Lake Aldwell, and about 400 acres at the former Lake Mills. Tracks of animals are often seen as animals return where their used to be lakes, including beaver, now back in both areas. They've got plenty to chew on: a new forest is rising in the fine sediments along the former lake shores, with alder, willow and cottonwood grown more than 8 feet high."
+    "text": "The reservoirs have drained away, exposing 330 acres of exposed silt, sand and gravel of the former Lake Aldwell, and about 400 acres at the former Lake Mills. Tracks of animals are often seen as animals return where there used to be lakes, including beaver, now back in both areas. They've got plenty to chew on: a new forest is rising in the fine sediments along the former lake shores, with alder, willow and cottonwood grown more than 8 feet high."
   },
   "elk": {
     "zone": "middle",
     "title": "Visiting their winter range: elk",
-    "text": "Roosevelt elk are visiting both former lakebeds. Biologists are a little surprised – and relieved that elk are browsing but not devouring more than 260,000 plantings including tasty woody shrubs put in the lakebeds as part of a seven year revegetation plan to crowd out weeds. They seem to particularly fancy Nootka rose, big leaf maple and bitter cherry."
+    "text": "Roosevelt elk are visiting both former lake beds. Biologists are a little surprised – and relieved that elk are browsing but not devouring more than 260,000 plantings including tasty woody shrubs put in the lake beds as part of a seven year revegetation plan to crowd out weeds. They seem to particularly fancy Nootka rose, big leaf maple and bitter cherry."
   },
   "lower_chatter": {
     "zone": "lower",
-    "text": "The lower river was the only place available to salmon, once Elwha Dam was built five miles from the river mouth without fish passage in 1910. Entrepreneur Thomas Aldwell built Elwha Dam to generate hydropower to attract industry to the city of Port Angeles. Cheap hydropower helped jump start the economy on the Olympic Peninsula. But anadromous fish populations in the Elwha declined by 98 percent overall during the last century."
+    "text": "The lower river was the only place available to salmon, once Elwha Dam was built five miles from the river mouth without fish passage in 1910. Entrepreneur Thomas Aldwell built Elwha Dam to generate hydropower to attract industry to the city of Port Angeles. Cheap hydropower helped jumpstart the economy on the Olympic Peninsula. But anadromous fish populations in the Elwha declined by 98 percent overall during the last century."
   },
   "eagles": {
     "zone": "lower",
@@ -68,12 +68,17 @@
   "dippers": {
     "zone": "lower",
     "title": "Dippers are flourishing",
-    "text": "Scientists studying American dipper, our only native aquatic songbird, have learned that with the return of salmon to the river the birds are bigger, and hatching two rounds of young a year. They also are more likely to stick around, instead of migrating. Samples of their feathers, blood and toenails show why: a boost of nutrients from salmon returned to the river. Surveys show otters are fattening up too."
+    "text": "Scientists studying American dipper, our only native aquatic songbird, have learned that with the return of salmon to the river the birds are bigger, and hatching two rounds of young a year. They also are more likely to stick around, instead of migrating. Samples of their feathers, blood and toenails show why: a boost of nutrients from salmon returned to the river."
   },
   "invertebrates": {
     "zone": "lower",
     "title": "River bottom invertebrates hammered",
     "text": "Scientists monitoring invertebrates in the river bottom documented a near total population crash as sediment smothered the lower river once the dams came down. These tiny animals at the base of the food chain including caddis flies, stone flies and mayflies are starting to recover now that the sediment pulse is passed. "
+  },
+  "otter": {
+    "zone": "lower",
+    "title": "Otters on the move",
+    "text": "As fish come up river, otters appear to on the hunt for them. Otters tagged and tracked in wildlife research by the Lower Elwha Klallam Tribe were discovered to be moving from the middle and upper river to the lower river once Elwha Dam was out. One otter in particular never visited the lower river until the dam was out.  “Maybe she saw these fish and wanted to see where they were coming from,” says Kim Sager-Fradkin, biologist for the tribe. "
   },
   "mouth-before": {
     "zone": "mouth",
@@ -97,7 +102,7 @@
   "urchins": {
     "zone": "mouth",
     "title": "Sea urchins",
-    "text": "Urchins are at home on rocky shores and kelp beds where they graze on algae. These spiny denizens were displaced by the re-set of the near shore to sand. Their habitat disappeared along with their food source. Lots of animals were put out of work in the near shore as the deluge of sediment piled up on their habitat."
+    "text": "Urchins are at home on rocky shores and kelp beds where they graze on algae. These spiny denizens were displaced by the reset of the nearshore from a rocky bottom, back to sand. Lots of animals were put out of work in the nearshore as the deluge of sediment that had been stuck behind the dams piled up on their habitat.It's all part of the ongoing changes as the river and nearshore remake themselves to more of what they used to be like, and the animals that used to be there take their rightful place again. "
   },
   "mouth_after": {
     "zone": "mouth",
@@ -116,6 +121,6 @@
   "shrimp": {
     "zone": "mouth",
     "title": "Shrimp... and more",
-    "text": "Biologists netting nearshore waters are finding all kinds of animals, including shrimp as the environment has transformed from a closed system, to an open one. Since dam removal shrimp are showing up for the first time in biologist's sampling nets. Other newcomers include a huge increase in night smelt, never seen in the region before. Even adult chum salmon are turning up in the nearshore."
+    "text": "Biologists netting nearshore waters are finding all kinds of animals, including shrimp as the environment has transformed from a closed system, to an open one. Since dam removal shrimp are showing up for the first time in biologist's sampling nets. Even adult chum salmon are turning up in the nearshore. Chum don't have the charisma of Chinook but they feed the river and the land and are key to reweaving the web of life in the Elwha. "
   }
 }
