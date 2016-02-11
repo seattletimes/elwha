@@ -8,5 +8,5 @@ require("./scrollWash");
 require("./sticky");
 require("./scrollClass");
 require("./headerVideo");
-require("./logs");
+// require("./logs");
 require("./featuring");

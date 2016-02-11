@@ -1,4 +1,4 @@
-ELWHA RIVER, OLYMPIC NATIONAL PARK — The Elwha watershed is booming with new life, after the world's largest dam removal anywhere.
+ELWHA RIVER — The Elwha watershed is booming with new life, after the world's largest dam removal anywhere.
 
 The first concrete went flying in September 2011, and Elwha Dam was out the following March. Glines Canyon Dam upriver tumbled for good in September 2014.Today the river roars through the tight rock canyon once plugged by Elwha Dam and surges past the bald rocky hill where the powerhouse stood. The hum of the generators is replaced by the river singing in full voice, shrugging off a century of confinement like it never happened. Nature's resurgence is visible everywhere. 
 

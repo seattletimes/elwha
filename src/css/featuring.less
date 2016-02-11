@@ -14,7 +14,7 @@
     width: 70%;
 
     @media @mobile {
-      width: 65%;
+      width: 100%;
     }
 
     .point-of-interest {
@@ -38,21 +38,16 @@
     width: 20%;
 
     @media @mobile {
-      width: 30%;
-      padding-top: 100px;
-      padding-bottom: 30px;
+      float: none;
+      width: 100%;
       border-bottom: 1px solid @df-light-gray;
+      overflow: hidden;
+      .display-flex();
+      .align-items(center);
 
-      &::before {
-        content: "Tap to read";
-        color: @df-middle-gray;
-        text-transform: uppercase;
-        text-align: center;
-        display: block;
-        font-family: @df-sans;
-        border-bottom: 1px solid @df-light-gray;
-        margin-bottom: 30px;
-        padding-bottom: 10px;
+      .image-container {
+        box-shadow: none;
+        border-radius: 0;
       }
     }
 

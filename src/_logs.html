@@ -1,33 +1,21 @@
-<div class="fixed-placeholder logjam-scenery">
-  <div class="aspect-inner">
-    <div class="sliding-scene" data-zone="first">
-      <img src="./assets/scenes/UpperRiverC_1200x612.jpg">
-      <div class="before"></div>
-      <div class="after"></div>
-    </div>
-  </div>
+<div class="log-stage constrained" data-zone="upright">
+  <h3><%= headers.helicoptering %></h3>
+  <p><%= text.helicoptering %>
 </div>
 
-<div class="stages constrained">
+<%= t.include("_wash.html", { url: "scenes/UpperRiver$_1200x612.jpg" }) %>
 
-  <div class="log-stage" data-zone="upright">
-    <h3><%= headers.helicoptering %></h3>
-    <p><%= text.helicoptering %>
-  </div>
+<div class="log-stage constrained" data-zone="falling">
+  <aside class="point-of-interest">
+    <h4><%= headers.logjams %></h4>
+    <p><%= text.logjams %>
+  </aside>
+</div>
 
-  <div class="log-stage" data-zone="falling">
-    <aside class="point-of-interest">
-      <h4><%= headers.logjams %></h4>
-      <p><%= text.logjams %>
-    </aside>
-  </div>
-
-  <div class="log-stage" data-zone="island">
-    <aside class="point-of-interest">
-      <h4><%= headers.islands %></h4>
-      <%= t.include("_wash.html", { url: "animals/DeerMouse$_800x413.jpg" }) %>
-      <p><%= text.islands %>
-    </aside>
-  </div>
-
+<div class="log-stage constrained" data-zone="island">
+  <aside class="point-of-interest">
+    <h4><%= headers.islands %></h4>
+    <%= t.include("_wash.html", { url: "animals/DeerMouse$_800x413.jpg" }) %>
+    <p><%= text.islands %>
+  </aside>
 </div>

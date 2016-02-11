@@ -89,6 +89,7 @@ class WashEffect {
     };
 
     var frame = function() {
+      if (!self.animating) return;
       if (check()) return pause();
       var now = Date.now();
       var elapsed = now - self.time;
@@ -99,11 +100,12 @@ class WashEffect {
       self.animating = requestAnimationFrame(frame);
     };
 
+    self.animating = true;
     frame();
   }
 
   clear() {
-    if (this.animating) cancelAnimationFrame(this.animating);
+    cancelAnimationFrame(this.animating);
     this.animating = false;
     this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
   }

@@ -2,6 +2,7 @@ var $ = require("./lib/qsa");
 var flip = require("./lib/flip");
 var closest = require("./lib/closest");
 var WashEffect = require("./wash");
+var scroll = require("./animateScroll");
 
 var sections = $(".featuring");
 
@@ -45,6 +46,7 @@ sections.forEach(function(section) {
       previously.classList.remove("faded");
       item.classList.remove("faded");
     });
+    if (selected.getBoundingClientRect().top < 0) scroll(selected);
     setTimeout(wash.play.bind(wash), 500);
   });
 

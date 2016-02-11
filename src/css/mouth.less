@@ -13,7 +13,6 @@
     left: 0;
     width: 100%;
     z-index: 9999;
-    transform-origin: top;
     overflow: hidden;
 
     &::after {
@@ -23,21 +22,18 @@
       content: "Before dam removal";
       // text-transform: uppercase;
       color: @df-middle-gray;
-      font-size: 48px;
+      font-size: 24px;
       // font-family: @df-sans;
+    }
+
+    &.stuck {
+      max-width: 600px;
+      left: 50%;
+      .transform(translateX(-50%));
     }
     
     img {
       display: block;
-    }
-
-    img.before {
-      transition: box-shadow .6s ease-in-out;
-      box-shadow: 0 8px 8px fade(black, 10%);
-    }
-
-    &.stuck img.before {
-      box-shadow: 0 8px 16px fade(black, 20%);
     }
 
     img.after {
