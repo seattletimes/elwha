@@ -1,1 +1,1 @@
-module.exports = (s, d) => Array.prototype.slice.call((d || document).querySelectorAll(s));
+module.exports = (s, d = document) => Array.prototype.slice.call(d.querySelectorAll(s));
