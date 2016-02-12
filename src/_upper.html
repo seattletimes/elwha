@@ -1,28 +1,36 @@
-<div class="text constrained">
+<div class="text constrained featuring">
   <%= text.upper_chatter %> 
 
-  <aside class="point-of-interest">
-    <h4><%= headers.chinook %></h4>
-    <%= t.include("_wash.html", { url: "animals/Chinook$_800x307.jpg" }) %>
-    <p><%= text.chinook %></p>
-  </aside>
-   
-  <aside class="point-of-interest">
-    <h4><%= headers.rainbow_trout %></h4>
-    <%= t.include("_wash.html", { url: "animals/RainbowTrout$_800x293.jpg" }) %>
-    <p><%= text.rainbow_trout %></p>
-  </aside>
-  
-  <aside class="point-of-interest">
-    <h4><%= headers.mice %></h4>
-    <%= t.include("_wash.html", { url: "animals/JumpingMouse$_800x397.jpg" }) %>
-    <p><%= text.mice %></p>
-  </aside>  
+  <div class="selected-area">
 
-  <aside class="point-of-interest">
-    <h4><%= headers.sandpipers %></h4>
-    <%= t.include("_wash.html", { url: "animals/SandPiperSpotted$_800x524.jpg" }) %>
-    <p><%= text.sandpipers %>
-  </aside>
+    <aside class="point-of-interest">
+      <%= t.include("_delayWash.html", { url: "animals/Chinook$_800x307.jpg" }) %>
+      <h4><%= headers.chinook %></h4>
+      <p><%= text.chinook %></p>
+    </aside>
+
+  </div>
+   
+  <div class="on-deck">
+
+    <aside class="point-of-interest">
+      <%= t.include("_delayWash.html", { url: "animals/RainbowTrout$_800x293.jpg" }) %>
+      <h4><%= headers.rainbow_trout %></h4>
+      <p><%= text.rainbow_trout %></p>
+    </aside>
+    
+    <aside class="point-of-interest">
+      <%= t.include("_delayWash.html", { url: "animals/JumpingMouse$_800x397.jpg" }) %>
+      <h4><%= headers.mice %></h4>
+      <p><%= text.mice %></p>
+    </aside>  
+
+    <aside class="point-of-interest">
+      <%= t.include("_delayWash.html", { url: "animals/SandPiperSpotted$_800x524.jpg" }) %>
+      <h4><%= headers.sandpipers %></h4>
+      <p><%= text.sandpipers %>
+    </aside>
+
+  </div>
 
 </div>

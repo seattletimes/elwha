@@ -8,13 +8,19 @@ header.splash {
   }
 
   h1 {
-    display: block;
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
     color: white;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    .transform(translateY(-50%));
+    margin: 0;
+    padding: 0;
+    left: 0;
     text-align: center;
-    font-size: 48px;
-    text-shadow: 0 4px 8px fade(black, 40%), 0 0 2px fade(black, 60%);
+    z-index: 999;
+    background: transparent;
+    text-shadow: 0 4px 8px fade(black, 70%);
+    font-size: 60px;
+    font-style: italic;
   }
 }

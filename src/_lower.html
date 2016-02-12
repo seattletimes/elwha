@@ -1,25 +1,36 @@
-<div class="constrained">
+<div class="constrained featuring">
 
   <p>
     <%= text.lower_chatter %>
 
   <aside class="point-of-interest">
-    <h4><%= headers.eagles %></h4>
-    <%= t.include("_wash.html", { url: "animals/Eagle$_800x876.jpg" }) %>
-    <p><%= text.eagles %></p>
-  </aside>
-
-
-  <aside class="point-of-interest">
-    <h4><%= headers.dippers %></h4>
-    <%= t.include("_wash.html", { url: "animals/AmericanDipper$_800x450.jpg" }) %>
-    <p><%= text.dippers %></p>
-  </aside>
-
-  <aside class="point-of-interest">
     <h4><%= headers.invertebrates %></h4>
     <p><%= text.invertebrates %></p>
   </aside>
+
+  <div class="selected-area">
+    <aside class="point-of-interest">
+      <%= t.include("_delayWash.html", { url: "animals/RiverOtter$_800x757.jpg" }) %>
+      <h4><%= headers.otter %></h4>
+      <p><%= text.otter %></p>
+    </aside>
+  </div>
+
+  <div class="on-deck">
+
+    <aside class="point-of-interest">
+      <%= t.include("_delayWash.html", { url: "animals/Eagle$_800x876.jpg" }) %>
+      <h4><%= headers.eagles %></h4>
+      <p><%= text.eagles %></p>
+    </aside>
+
+    <aside class="point-of-interest">
+      <%= t.include("_delayWash.html", { url: "animals/AmericanDipper$_800x450.jpg" }) %>
+      <h4><%= headers.dippers %></h4>
+      <p><%= text.dippers %></p>
+    </aside>
+
+  </div>
 
 
 </div>

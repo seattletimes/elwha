@@ -16,7 +16,7 @@
           <source src="./assets/video/large.mp4" type="video/mp4">
         </video>
       </div>
-      <h1>Elwha: Après nous le déluge</h1>
+      <h1>Elwha: Roaring back to life</h1>
 
     </header>
 
@@ -28,20 +28,29 @@
       </div>
 
       <section class="intro constrained">
+        <div class="jump-map">
+          <img src="./assets/scenes/elwhaMap.jpg">
+        </div>
         <%= markdown.intro %>
       </section>
 
       <div class="section-header">
         <h2>The upper river</h2>
-        <img src="./assets/photos/Elwha_Salmon.jpg" class="full-width">
+        <img src="./assets/photos/Elwha_Glines.jpg" class="full-width">
+        <div class="caption">
+          What's left of the 210-foot high Glines Canyon Dam, 30 feet remaining at the base to be blasted out and removed.  In the distance is the former Lake Mills that forms the new Elwha Valley.
+        </div>
       </div>
       <section class="upper river-zone">
         <%= t.include("_upper.html") %>        
       </section>
 
       <div class="section-header">
-        <h2>Logs and streams</h2>
+        <h2>Big wood on the move</h2>
         <img src="./assets/photos/logs.jpg" class="full-width">
+        <div class="caption">
+          After the Lower Elwha dam was deconstructed, the Elwha River now runs freely through what was Lake Aldwell that has lots of woody debris and is now filling in with vegetation.
+        </div>
       </div>
       <section class="log-debris river-zone">
         <%= t.include("_logs.html") %>
@@ -50,12 +59,21 @@
       <div class="section-header">
         <h2>The middle river</h2>
         <img src="./assets/photos/Elwha_Dam.jpg" class="full-width">
+        <div class="caption">
+          Construction began on Elwha Dam at river mile five in 1910, blocking all fish passage above it for the next century.
+        </div>
       </div>
       <section class="middle river-zone">
         <%= t.include("_middle.html") %>
       </section>
 
-      <h2>The lower river's resurgence</h2>
+      <div class="section-header">
+        <h2>The lower river's resurgence</h2>
+        <img src="./assets/photos/Elwha_Salmon.jpg" class="full-width">
+        <div class="caption">
+          In this 2010 photo, taken before the dam was removed, adult Chinook salmon hit the end of the river in a pool below the Elwha Dam that blocks their swim upstream. 
+        </div>
+      </div>
       <section class="lower river-zone">
         <%= t.include("_lower.html") %>
       </section>
@@ -63,10 +81,17 @@
       <div class="section-header">
         <h2>At the mouth of the Elwha</h2>
         <img src="./assets/photos/riverMouth.jpg" class="full-width">
+        <div class="caption">
+          Now after years of sediment being released from the deconstruction of the Elwha and Glines Canyon Dam, the rivermouth of the Elwha is forming a giant beach for as far as you can see instead of cobble stones.
+        </div>
       </div>
       <section class="mouth river-zone">
         <%= t.include("_mouth.html") %>
       </section>
+
+      <div class="contact-info constrained">
+        Lynda V. Mapes: 206-464-2515 or lmapes@seattletimes.com
+      </div>
 
     </main>
 
@@ -81,7 +106,7 @@
         <li> <b>Reporting</b>: Lynda Mapes
         <li> <b>Photos</b>: Steve Ringman
         <li> <b>Development</b>: Thomas Wilburn
-        <li> <b>Art</b>: Mark Nowlin, Kelly Shea
+        <li> <b>Graphics and illustration</b>: Mark Nowlin, Kelly Shea
         <li> <b>Page design</b>: Frank Mina
       </ul>
     </footer>

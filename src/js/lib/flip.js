@@ -19,5 +19,8 @@ module.exports = function(element, mutate) {
   var reflow = element.offsetWidth;
   element.style.transition = "all .5s ease-in-out";
   element.style[transform] = "";
-  setTimeout(() => element.style.transition = "", 500);
+  setTimeout(function() {
+    element.style.transition = "";
+    element.style[transformOrigin] = "";
+  }, 500);
 };
