@@ -7,7 +7,7 @@ The first concrete went flying in September 2011, and Elwha Dam was out the foll
 Not anymore. Washington, still one of the most hydropower-rich states in the nation, is also today the world's dam-busting pioneer.
 
 <div class="sidebar">
-  <h2>Read more from Lynda Mapes</h2>
+  <h2>Read more from Lynda V. Mapes</h2>
   <ul class="jump-links">
     <li><a href="http://old.seattletimes.com/flatpages/specialreports/elwha/?prmid=4749">Elwha: the grand experiment to tear down two dams (2011)</a>
     <li><a href="http://o.seattletimes.com/html/localnews/2024327922_elwharestorationxml.html">Back to nature: last chunk of Elwha dams out in September (2014)</a>

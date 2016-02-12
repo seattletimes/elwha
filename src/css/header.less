@@ -38,10 +38,11 @@ header.splash {
 
   .splash-container {
     position: relative;
+    cursor: pointer;
 
-    &:hover h2 {
-      opacity: 0;
-      .transform(translateY(-45%));
+    &.reveal h2 {
+      opacity: 0.01;
+      .transform(translateY(-35%));
     }
   }
 

@@ -15,3 +15,9 @@ require("./jump");
 var map = document.querySelector(".map-container");
 
 map.addEventListener("click", () => map.classList.toggle("expanded"));
+
+var $ = require("./lib/qsa");
+
+$(".splash-container").forEach(function(el) {
+  el.addEventListener("click", () => el.classList.toggle("reveal"))
+});
