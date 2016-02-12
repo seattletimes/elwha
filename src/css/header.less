@@ -22,5 +22,69 @@ header.splash {
     text-shadow: 0 4px 8px fade(black, 70%);
     font-size: 60px;
     font-style: italic;
+
+    @media @mobile {
+      font-size: 36px;
+      padding: 0 20px;
+    }
+  }
+}
+
+.section-header {
+  position: relative;
+  width: 100%;
+  margin: 40px 0;
+  overflow: hidden;
+
+  .splash-container {
+    position: relative;
+
+    &:hover h2 {
+      opacity: 0;
+      .transform(translateY(-45%));
+    }
+  }
+
+  h2 {
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    .transform(translateY(-50%));
+    margin: 0;
+    padding: 0;
+    left: 0;
+    text-align: center;
+    z-index: 999;
+    background: transparent;
+    text-shadow: 0 4px 4px black;
+    font-size: 60px;
+    font-style: italic;
+    transition: all .5s ease-in-out;
+
+    @media @mobile {
+      font-size: 36px;
+      line-height: 1.2;
+      padding: 0 20px;
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .caption {
+    float: right;
+    color: @df-middle-gray;
+    font-family: @df-sans;
+    font-size: 14px;
+    text-align: right;
+    padding: 0 20px;
+    max-width: 800px;
+    margin: 0 auto;
+
+    @media @mobile {
+      text-align: left;
+    }
   }
 }

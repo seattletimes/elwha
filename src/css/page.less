@@ -17,6 +17,16 @@ body {
 .byline {
   font-family: @df-sans;
   color: @df-blue;
+
+  @media @mobile {
+    font-size: 16px;
+    margin: 20px 0;
+  }
+}
+
+.date {
+  font-family: @df-sans;
+  color: @df-middle-gray;
 }
 
 .sidebar {
@@ -34,6 +44,7 @@ body {
     float: none;
     max-width: 100%;
     margin: 0;
+    padding: 8px;
   }
 
   h2 {
@@ -50,6 +61,32 @@ body {
 
   .event {
 
+  }
+}
+
+.jump-navigation {
+  h2 {
+    display: block;
+    border-bottom: 1px solid @df-light-gray;
+    text-align: center;
+    margin: 0 40px;
+  }
+
+  ul {
+    list-style-type: none;
+    text-align: center;
+
+    li {
+      display: inline;
+
+      &::after {
+        content: " | "
+      }
+
+      &:last-child::after {
+        content: "";
+      }
+    }
   }
 }
 
@@ -85,57 +122,6 @@ body {
     content: "";
     display: block;
     clear: both;
-  }
-}
-
-.section-header {
-  position: relative;
-  width: 100%;
-  margin: 40px 0;
-  overflow: hidden;
-
-  h2 {
-    color: white;
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    .transform(translateY(-50%));
-    margin: 0;
-    padding: 0;
-    left: 0;
-    text-align: center;
-    z-index: 999;
-    background: transparent;
-    text-shadow: 0 4px 4px black;
-    font-size: 60px;
-    font-style: italic;
-    transition: all .5s ease-in-out;
-
-    @media @mobile {
-      font-size: 36px;
-      line-height: 1.2;
-      padding: 0 20px;
-    }
-  }
-
-  &:hover h2 {
-    opacity: 0;
-    .transform(translateY(-45%));
-  }
-
-  img {
-    width: 100%;
-  }
-
-  .caption {
-    float: right;
-    color: @df-middle-gray;
-    font-family: @df-sans;
-    font-size: 14px;
-    text-align: right;
-    padding: 0 20px;
-    max-width: 800px;
-    margin: 0 auto;
   }
 }
 
@@ -191,10 +177,54 @@ footer {
     padding-bottom: 20px;
   }
 
+  .nerdbox {
+    .display-flex();
+    .align-items(center);
+
+    @media @mobile {
+      display: block;
+    }
+  }
+
+  .subscribe-box {
+    background: @df-light-gray;
+    color: black;
+    padding: 20px;
+
+    @media @mobile {
+      margin-top: 40px;
+    }
+
+    .button-box {
+      .display-flex();
+      .align-items(center);
+
+      @media @mobile {
+        display: block;
+      }
+      
+      img {
+        margin: 0 10px;
+        @media @mobile {
+          margin: 10px 0;
+        }
+      }
+
+      .subscribe-button {
+        background: @df-blue;
+        color: white;
+        padding: 16px;
+        display: block;
+        text-align: center;
+        color: white;
+      }
+    }
+  }
+
   .credits {
     list-style-type: none;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 10px 0 0;
 
     li {
       margin-bottom: 8px;

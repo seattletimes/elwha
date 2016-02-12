@@ -1,5 +1,5 @@
 require("./lib/social");
-// require("./lib/ads");
+require("./lib/ads");
 var track = require("./lib/tracking");
 
 require("component-image-slider");

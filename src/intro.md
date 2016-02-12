@@ -55,3 +55,15 @@ Elk stroll where there used to be reservoirs. Bigger, fatter birds are bearing m
 Logs are tumbling and stacking in the river, building complex, braided channels, islands and jams.
 
 And fish are booming back: More than 4,000 chinook spawners were counted above the former Elwha Dam the first season after it came down. Overall, fish populations are the highest in 30 years. And that’s before the first progeny of salmon and steelhead going to sea since dam removal come back this year. 
+
+
+<nav class="jump-navigation">
+  <h2>Sections</h2>
+  <ul class="jump-links">
+    <li><a href="#upper">The Upper River</a>
+    <li><a href="#logs">Big wood on the move</a>
+    <li><a href="#middle">The middle river</a>
+    <li><a href="#lower">The lower river's resurgence</a>
+    <li><a href="#mouth">At the mouth of the Elwha</a>
+  </ul>
+</nav>

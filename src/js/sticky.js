@@ -14,7 +14,7 @@ window.addEventListener("scroll", function() {
   stickyElements.forEach(function(sticky) {
     sticky.target.classList.remove("stuck");
     var bounds = sticky.area.getBoundingClientRect();
-    if (bounds.top < 0) {
+    if (bounds.top < 0 && bounds.bottom > 0) {
       sticky.target.classList.add("stuck");
     }
     if (bounds.bottom < 0) {
