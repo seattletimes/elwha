@@ -17,6 +17,7 @@ body {
 .byline {
   font-family: @df-sans;
   color: @df-blue;
+  margin-bottom: 20px;
 
   @media @mobile {
     font-size: 16px;
@@ -119,9 +120,15 @@ body {
 }
 
 .jump-navigation {
+
+  hr {
+    border: none;
+    border-top: 1px solid @df-light-gray;
+    margin: 40px auto 20px;
+  }
+
   h2 {
     display: block;
-    border-bottom: 1px solid @df-light-gray;
     text-align: center;
     margin: 0 40px;
   }
@@ -142,6 +149,10 @@ body {
       }
     }
   }
+}
+
+#upper.section-header {
+  margin-top: 20px;
 }
 
 .jump-links {
@@ -214,10 +225,12 @@ body {
 }
 
 .contact-info {
+  border-top: 1px solid @df-light-gray;
+  color: @df-dark-gray;
   text-align: center;
   font-family: @df-sans;
-  font-weight: bold;
-  padding: 40px 20px;
+  margin-top: 40px;
+  padding: 20px;
 }
 
 footer {
@@ -244,12 +257,14 @@ footer {
     background: @df-light-gray;
     color: black;
     padding: 20px;
+    text-align: center;
 
     @media @mobile {
       margin-top: 40px;
     }
 
     .button-box {
+      padding-top: 20px;
       .display-flex();
       .align-items(center);
 
@@ -259,18 +274,23 @@ footer {
       
       img {
         margin: 0 10px;
+        height: 30px;
+
         @media @mobile {
           margin: 10px 0;
         }
       }
 
       .subscribe-button {
+        .flex(1);
         background: @df-blue;
         color: white;
-        padding: 16px;
+        padding: 8px 16px;
+        border-radius: 2px;
         display: block;
         text-align: center;
         color: white;
+        font-weight: bold;
       }
     }
   }
@@ -283,5 +303,10 @@ footer {
     li {
       margin-bottom: 8px;
     }
+  }
+
+  .copyright {
+    padding: 40px 0;
+    text-align: center;
   }
 }

@@ -19,7 +19,6 @@
         </video>
       </div>
       <h1>Elwha: Roaring back to life</h1>
-
     </header>
 
     <main>
@@ -29,8 +28,9 @@
         Seattle Times environment reporter
       </div>
 
-      <div class="date constrained">
-        Published February 13, 2016
+      <div class="byline constrained">
+        Photos and video by Steve Ringman<br>
+        Seattle Times staff photographer
       </div>
 
       <section class="intro constrained">
@@ -38,21 +38,23 @@
           <img src="./assets/scenes/elwhaMap.jpg" class="map">
         </div>
         <%= markdown.intro %>
-        <nav class="jump-navigation">
-          <h2>Sections</h2>
-          <ul class="jump-links">
-            <li><a href="#upper">The upper river</a>
-            <li><a href="#logs">Big wood on the move</a>
-            <li><a href="#middle">The middle river</a>
-            <li><a href="#lower">The lower river's resurgence</a>
-            <li><a href="#mouth">At the mouth of the Elwha</a>
-          </ul>
-        </nav>
       </section>
+
+      <nav class="jump-navigation">
+        <hr class="divider constrained">
+        <h2>Explore the Elwha</h2>
+        <ul class="jump-links">
+          <li><a href="#upper">Upper river</a>
+          <li><a href="#logs">Big wood on the move</a>
+          <li><a href="#middle">Middle river</a>
+          <li><a href="#lower">Lower river's resurgence</a>
+          <li><a href="#mouth">At the mouth of the Elwha</a>
+        </ul>
+      </nav>
 
       <div class="section-header" id="upper">
         <div class="splash-container">
-          <h2>The upper river</h2>
+          <h2>Upper river</h2>
           <img src="./assets/photos/Elwha_Glines.jpg" class="full-width">
         </div>
         <div class="caption">
@@ -78,7 +80,7 @@
 
       <div class="section-header" id="middle">
         <div class="splash-container">
-          <h2>The middle river</h2>
+          <h2>Middle river</h2>
           <img src="./assets/photos/elwhadippers18.jpg" class="full-width">
         </div>
         <div class="caption">
@@ -91,7 +93,7 @@
 
       <div class="section-header" id="lower">
         <div class="splash-container">
-          <h2>The lower river's resurgence</h2>
+          <h2>Lower river's resurgence</h2>
           <img src="./assets/photos/Elwha_Salmon.jpg" class="full-width">
         </div>
         <div class="caption">
@@ -116,7 +118,9 @@
       </section>
 
       <div class="contact-info constrained">
-        Lynda V. Mapes: 206-464-2515 or lmapes@seattletimes.com
+        <p>Originally published February 13, 2016
+
+        <p>Lynda V. Mapes: 206-464-2515 or <a href="mailto:lmapes@seattletimes.com">lmapes@seattletimes.com</a>
       </div>
 
     </main>
@@ -140,7 +144,7 @@
         </ul>
 
         <div class="subscribe-box">
-          Did you find this story valuable? Support watchdog journalism at The Seattle Times by subscribing.
+          Did you find this story valuable? Support local journalism at The Seattle Times by subscribing.
 
           <div class="button-box">
             <img src="./assets/seattletimes.svg">
@@ -149,6 +153,8 @@
         </div>
 
       </div>
+
+      <div class="copyright">&copy; 2016 The Seattle Times</div>
     </footer>
 
     <%= t.include("partials/_navBottom.html") %>

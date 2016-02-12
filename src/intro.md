@@ -7,14 +7,6 @@ The first concrete went flying in September 2011, and Elwha Dam was out the foll
 Not anymore. Washington, still one of the most hydropower-rich states in the nation, is also today the world's dam-busting pioneer.
 
 <div class="sidebar">
-  <h2>Read more from Lynda V. Mapes</h2>
-  <ul class="jump-links">
-    <li><a href="http://old.seattletimes.com/flatpages/specialreports/elwha/?prmid=4749">Elwha: the grand experiment to tear down two dams (2011)</a>
-    <li><a href="http://o.seattletimes.com/html/localnews/2024327922_elwharestorationxml.html">Back to nature: last chunk of Elwha dams out in September (2014)</a>
-    <li><a href="http://www.mountaineersbooks.org/Elwha-P1107.aspx">Elwha: A River Reborn</a>
-    <li><a href="http://www.seattletimes.com/tag/elwha">All Seattle Times Elwha coverage</a>
-  </ul>
-  <hr class="divider">
   <div class="event">
     <h3>Meet the reporter</h3>
     <p>
@@ -49,9 +41,19 @@ It's as if the whole watershed was waiting.
   </div>
 </aside>
 
-Scientists are amazed at the speed of change under way in the Elwha.  
+Scientists are amazed at the speed of change under way in the Elwha.
 
 Elk stroll where there used to be reservoirs. Bigger, fatter birds are bearing more young, and moving in to stay. A young forest grows where there was blowing sand in the former reservoir lakebeds. Seeds tumble down the river’s coursing current. The big pulse of sediment trapped behind the dams is passed; the river has regained its luminous teal green color, and its channel is stabilizing. 
+
+<div class="sidebar">
+  <h2>Read more from Lynda V. Mapes</h2>
+  <ul class="jump-links">
+    <li><a href="http://old.seattletimes.com/flatpages/specialreports/elwha/?prmid=4749">Elwha: the grand experiment to tear down two dams (2011)</a>
+    <li><a href="http://o.seattletimes.com/html/localnews/2024327922_elwharestorationxml.html">Back to nature: last chunk of Elwha dams out in September (2014)</a>
+    <li><a href="http://www.mountaineersbooks.org/Elwha-P1107.aspx">Elwha: A River Reborn</a>
+    <li><a href="http://www.seattletimes.com/tag/elwha">All Seattle Times Elwha coverage</a>
+  </ul>
+</div>
 
 Logs are tumbling and stacking in the river, building complex, braided channels, islands and jams.
 
