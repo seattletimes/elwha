@@ -29,6 +29,56 @@ body {
   color: @df-middle-gray;
 }
 
+.map-container {
+  float: right;
+  max-width: 50%;
+  margin-left: 8px;
+  margin-bottom: 8px;
+  color: @df-middle-gray;
+  font-size: 14px;
+  font-family: @df-sans;
+  text-align: center;
+  cursor: pointer;
+
+  &::after {
+    display: block;
+    content: "Click to zoom";
+  }
+
+  &.expanded {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    .display-flex();
+    .align-items(center);
+    .justify-content(center);
+    background: fade(black, 80%);
+    margin: 0;
+    z-index: 999;
+
+    img {
+      @media @mobile {
+        height: 90%;
+      }
+    }
+
+    &::after {
+      content: "x";
+      position: absolute;
+      color: white;
+      font-weight: bold;
+      top: 0;
+      right: 0;
+      padding: 18px;
+      cursor: pointer;
+      font-size: 36px;
+    }
+  }
+}
+
 .sidebar {
   float: right;
   max-width: 300px;

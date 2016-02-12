@@ -11,3 +11,7 @@ require("./headerVideo");
 // require("./logs");
 require("./featuring");
 require("./jump");
+
+var map = document.querySelector(".map-container");
+
+map.addEventListener("click", () => map.classList.toggle("expanded"));
