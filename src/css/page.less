@@ -21,16 +21,30 @@ body {
 
 .jump-map {
   float: right;
-  max-width: 200px;
+  max-width: 300px;
+  font-family: @df-sans;
+  background: @df-off-white;
+  padding: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+
+  h2 {
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+  }
 }
 
-h2 {
-  background: @elwhaGreen;
-  color: white;
-  padding: 40px;
-  text-align: center;
-  display: block;
-  clear: both;
+.jump-links {
+  list-style: inside circle;
+  margin: 10px;
+  padding: 0;
+  font-size: 15px;
+
+  li {
+    // display: block;
+    margin-bottom: 8px;
+  }
 }
 
 .slider-container {
@@ -64,6 +78,7 @@ h2 {
   overflow: hidden;
 
   h2 {
+    color: white;
     position: absolute;
     width: 100%;
     top: 50%;

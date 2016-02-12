@@ -10,3 +10,4 @@ require("./scrollClass");
 require("./headerVideo");
 // require("./logs");
 require("./featuring");
+require("./jump");

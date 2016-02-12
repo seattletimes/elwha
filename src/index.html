@@ -29,12 +29,19 @@
 
       <section class="intro constrained">
         <div class="jump-map">
-          <img src="./assets/scenes/elwhaMap.jpg">
+          <h2>Sections</h2>
+          <ul class="jump-links">
+            <li><a href="#upper">The Upper River</a>
+            <li><a href="#logs">Big wood on the move</a>
+            <li><a href="#middle">The middle river</a>
+            <li><a href="#lower">The lower river's resurgence</a>
+            <li><a href="#mouth">At the mouth of the Elwha</a>
+          </ul>
         </div>
         <%= markdown.intro %>
       </section>
 
-      <div class="section-header">
+      <div class="section-header" id="upper">
         <h2>The upper river</h2>
         <img src="./assets/photos/Elwha_Glines.jpg" class="full-width">
         <div class="caption">
@@ -45,7 +52,7 @@
         <%= t.include("_upper.html") %>        
       </section>
 
-      <div class="section-header">
+      <div class="section-header" id="logs">
         <h2>Big wood on the move</h2>
         <img src="./assets/photos/logs.jpg" class="full-width">
         <div class="caption">
@@ -56,7 +63,7 @@
         <%= t.include("_logs.html") %>
       </section>
 
-      <div class="section-header">
+      <div class="section-header" id="middle">
         <h2>The middle river</h2>
         <img src="./assets/photos/elwhadippers18.jpg" class="full-width">
         <div class="caption">
@@ -67,7 +74,7 @@
         <%= t.include("_middle.html") %>
       </section>
 
-      <div class="section-header">
+      <div class="section-header" id="lower">
         <h2>The lower river's resurgence</h2>
         <img src="./assets/photos/Elwha_Salmon.jpg" class="full-width">
         <div class="caption">
@@ -78,7 +85,7 @@
         <%= t.include("_lower.html") %>
       </section>
 
-      <div class="section-header">
+      <div class="section-header" id="mouth">
         <h2>At the mouth of the Elwha</h2>
         <img src="./assets/photos/riverMouth.jpg" class="full-width">
         <div class="caption">
