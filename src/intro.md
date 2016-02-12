@@ -16,12 +16,13 @@ Not anymore. Washington, still one of the most hydropower-rich states in the nat
   </ul>
   <hr class="divider">
   <div class="event">
+    <h3>Meet the reporter</h3>
     <p>
       Join reporter Lynda V. Mapes for a discussion about the Elwha dam removal, hosted by the Seward Park Audubon Center.
     <p>
-      6-7:30 p.m. March 8 at the Royal Room, 5000 Rainier Ave. S.
+      <b>When</b>: 6-7:30 p.m. March 8 at the Royal Room, 5000 Rainier Ave. S.
     <p>
-      Admission is free but tickets are required.
+      <b>Admission:</b> free but tickets are required.
     <p>
       <a href="http://m.bpt.me/event/1376853">More information &raquo;</a>
   </div>
