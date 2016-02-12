@@ -6,6 +6,28 @@ The first concrete went flying in September 2011, and Elwha Dam was out the foll
 
 Not anymore. Washington, still one of the most hydropower-rich states in the nation, is also today the world's dam-busting pioneer.
 
+<div class="sidebar">
+  <h2>Read more from Lynda Mapes</h2>
+  <ul class="jump-links">
+    <li><a href="http://old.seattletimes.com/flatpages/specialreports/elwha/?prmid=4749">Elwha: the grand experiment to tear down two dams (2011)</a>
+    <li><a href="http://o.seattletimes.com/html/localnews/2024327922_elwharestorationxml.html">Back to nature: last chunk of Elwha dams out in September (2014)</a>
+    <li><a href="http://www.mountaineersbooks.org/Elwha-P1107.aspx">Elwha: A River Reborn</a>
+    <li><a href="http://www.seattletimes.com/tag/elwha">All Seattle Times Elwha coverage</a>
+  </ul>
+  <hr class="divider">
+  <div class="event">
+    <p>
+      Join reporter Lynda V. Mapes for a discussion about the Elwha dam removal, hosted by the Seward Park Audubon Center.
+    <p>
+      6-7:30 p.m. March 8 at the Royal Room, 5000 Rainier Ave. S.
+    <p>
+      Admission is free but tickets are required.
+    <p>
+      <a href="http://m.bpt.me/event/1376853">More information &raquo;</a>
+  </div>
+
+</div>
+
 PacifiCorp did the math on keeping the Condit Dam on the White Salmon River in Southwestern Washington and blew it up with one blast on Oct. 28, 2011.
 
 It took an act of Congress in 1992 to finally free the Elwha, taking down the pair of dams that had blocked the 45-mile mountain river for a century.

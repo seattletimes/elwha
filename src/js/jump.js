@@ -6,9 +6,6 @@ var jump = function(e) {
   var href = this.getAttribute("href");
   window.history.pushState(href, "", href);
   scroll(document.querySelector(href));
-  console.log(href);
 }
-
-console.log($(`[href^="#"]`));
 
 $(`[href^="#"]`).forEach(el => el.addEventListener("click", jump));
