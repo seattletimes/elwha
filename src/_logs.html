@@ -1,21 +1,25 @@
-<div class="log-stage constrained" data-zone="upright">
+<div class="log-stage constrained">
   <h3><%= headers.helicoptering %></h3>
   <p><%= text.helicoptering %>
 </div>
 
 <%= t.include("_wash.html", { url: "scenes/UpperRiver$_1200x612.jpg" }) %>
 
-<div class="log-stage constrained" data-zone="falling">
+<div class="log-stage constrained">
   <aside class="point-of-interest">
     <h4><%= headers.logjams %></h4>
     <p><%= text.logjams %>
   </aside>
 </div>
 
-<div class="log-stage constrained" data-zone="island">
+<div class="log-stage mice constrained">
   <aside class="point-of-interest">
     <h4><%= headers.islands %></h4>
-    <%= t.include("_wash.html", { url: "animals/DeerMouse$_800x413.jpg" }) %>
     <p><%= text.islands %>
+    <div class="mice">
+      <%= t.include("_wash.html", { url: "animals/DeerMouse$_800x413.jpg" }) %>
+      <%= t.include("_wash.html", { url: "animals/JumpingMouse$_800x397.jpg" }) %>
+      <%= t.include("_wash.html", { url: "animals/WoodRat$_800x691.jpg" }) %>
+    </div>
   </aside>
 </div>

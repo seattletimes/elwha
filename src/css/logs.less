@@ -59,9 +59,16 @@
   display: block;
   clear: both;
 
-  .scroll-wash {
-    float: right;
-    width: 400px;
-    max-width: 100%;
+  .mice {
+    .image-container {
+      margin: 0;
+    }
+
+    @media @mobile {
+      .image-container {
+        width: 50%;
+        float: right;
+      }
+    }
   }
 }
