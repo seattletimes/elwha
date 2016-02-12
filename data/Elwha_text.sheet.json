@@ -11,7 +11,7 @@
   "rainbow_trout": {
     "zone": "upper",
     "title": "Rainbow trout go to sea",
-    "text": "Locked up like jewels in a box behind the dam, rainbow trout native to the Elwha are once again going to sea as steelhead. That means the Elwha is being recolonized not only by adult fish entering the lower river, but by a cascade of out-migrating rainbows going to sea again as steelhead."
+    "text": "Locked up like jewels in a box behind the dam, rainbow trout native to the Elwha are once again going to sea as steelhead. That means the Elwha is being recolonized not only by adult fish entering the lower river, but by a cascade of out-migrating rainbows heading for saltwater."
   },
   "mice": {
     "zone": "upper",
@@ -30,7 +30,7 @@
   "islands": {
     "zone": "logs",
     "title": "Logs become homes",
-    "text": "Logs on the banks and former reservoir beds have become islands of biodiversity. The logs create shelter for seeds to sprout, birds to perch and a menagerie of small mammals to hide. The birds bring more seeds and fertilizer; the plants create soil, and the small mammals are bioengineers in their own quiet way. They cache seeds that sprout, leave manure that feeds new ground, and in their forays feed the animals that eat them."
+    "text": "Logs on the banks and former reservoir beds have become islands of biodiversity. The logs create shelter for seeds to sprout, birds to perch and a menagerie of small mammals to hide. The birds bring more seeds and fertilizer; the plants create soil, and the small mammals are bioengineers in their own quiet way. They cache seeds that sprout, leave manure that feeds new ground, and feed the animals that eat them."
   },
   "sandpipers": {
     "zone": "upper",
@@ -54,7 +54,7 @@
   "elk": {
     "zone": "middle",
     "title": "Visiting their winter range: elk",
-    "text": "Roosevelt elk are visiting both former lakebeds. Biologists are a little surprised – and relieved that elk are browsing but not devouring more than 260,000 plantings, including tasty woody shrubs put in the lakebeds as part of a seven-year revegetation plan to crowd out weeds. They seem to particularly fancy Populus balsamifera, the lovely black cottonwood. "
+    "text": "Roosevelt elk are visiting both former lakebeds. Biologists are a little surprised – and relieved – that elk are browsing but not devouring more than 260,000 plantings, including tasty woody shrubs put in the lakebeds as part of a seven-year revegetation plan to crowd out weeds. They seem to particularly fancy Populus balsamifera, the lovely black cottonwood. "
   },
   "lower_chatter": {
     "zone": "lower",
@@ -120,6 +120,6 @@
   "shrimp": {
     "zone": "mouth",
     "title": "Shrimp... and more",
-    "text": "Biologists netting nearshore waters are finding all kinds of animals, including shrimp as the river undergoes tumultuous change, from a closed system, to an open one. Since dam removal shrimp, are showing up for the first time in biologist's sampling nets. Even adult chum salmon are turning up in the nearshore. Chum don't have the charisma of Chinook, but they feed the river and the land and are key to reweaving the web of life in the Elwha. "
+    "text": "Biologists netting nearshore waters are finding all kinds of animals, including shrimp, as the river undergoes tumultuous change, from a closed system, to an open one. Since dam removal, shrimp are showing up for the first time in biologist's sampling nets. Even adult chum salmon are turning up in the nearshore. Chum don't have the charisma of Chinook, but they feed the river and the land and are key to reweaving the web of life in the Elwha. "
   }
 }

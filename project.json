@@ -5,17 +5,17 @@
       "path": "seedy-thunder"
     },
     "live": {
-      "bucket": "",
-      "path": ""
+      "bucket": "projects.seattletimes.com",
+      "path": "2016/elwha"
     }
   },
-  "title": "",
-  "description": "",
-  "url": "",
+  "title": "Elwha: Roaring back to life",
+  "description": "The Elwha watershed is booming with new life, after the world's largest dam removal.",
+  "url": "http://projects.seattletimes.com/2016/elwha",
   "slug": "",
   "tags": [],
-  "image": "assets/social.jpg",
+  "image": "assets/photos/logs.jpg",
   "sheets": ["10YQ3WzxW3jtcGTw7QvSg7VdfZMawK4-6uRTMS2aYUdA"],
-  "production": false,
-  "embedded": true
+  "production": true,
+  "embedded": false
 }
