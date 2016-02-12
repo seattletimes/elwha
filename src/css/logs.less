@@ -60,15 +60,20 @@
   clear: both;
 
   .mice {
+    float: right;
+    width: 50%;
+    margin-left: 8px;
+
     .image-container {
       margin: 0;
+      float: none;
+      width: 100%;
     }
 
     @media @mobile {
-      .image-container {
-        width: 50%;
-        float: right;
-      }
+      float: none;
+      width: 100%;
+      margin: 10px 0;
     }
   }
 }

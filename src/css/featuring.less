@@ -40,6 +40,7 @@
   .on-deck {
     float: right;
     width: 20%;
+    position: relative;
 
     @media @mobile {
       float: none;
@@ -48,6 +49,7 @@
       overflow: hidden;
       .display-flex();
       .align-items(center);
+      padding-top: 30px;
     }
 
     &::before {
@@ -60,6 +62,13 @@
       font-size: 13px;
       // font-weight: bold;
       margin: 0;
+
+      @media @mobile {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+      }
     }
 
     .image-container {
