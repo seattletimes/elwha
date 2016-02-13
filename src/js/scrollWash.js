@@ -12,6 +12,7 @@ faders.forEach(function(element) {
   var effect = new Wash(element);
 
   subscribe(element, function() {
+    effect.load();
     effect.play();
   });
 

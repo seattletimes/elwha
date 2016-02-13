@@ -14,6 +14,7 @@ subscribe.VISIBLE = "visible";
 subscribe.ENTER = "enter";
 subscribe.MIDDLE = "middle";
 subscribe.PAST = "past";
+subscribe.CLOSE = "close";
 
 var onScroll = function() {
   scrollNotified = scrollNotified.filter(function(sub) {
@@ -35,7 +36,13 @@ var onScroll = function() {
 
       case subscribe.PAST:
         if (bounds.top < window.innerHeight * .5) {
-          sub.callback();
+          return sub.callback();
+        }
+      break;
+
+      case subscribe.CLOSE:
+        if (bounds.top < window.innerHeight * 1.5) {
+          return sub.callback();
         }
       break;
 

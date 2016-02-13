@@ -21,10 +21,11 @@ class WashEffect {
     this.time = 0;
     this.pattern = null;
     this.ready = false;
+  }
 
+  load() {
     var source = new Image();
     source.src = this.canvas.getAttribute("data-src");
-
     source.onload = () => this.imageLoaded(source);
   }
 

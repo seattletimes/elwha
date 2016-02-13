@@ -11,6 +11,7 @@ require("./headerVideo");
 // require("./logs");
 require("./featuring");
 require("./jump");
+require("./lazyload");
 
 var map = document.querySelector(".map-container");
 

@@ -25,7 +25,9 @@ sections.forEach(function(section) {
   var deck = section.querySelector(".on-deck");
 
   var first = selected.querySelector(".image-container");
-  washes[first.getAttribute("data-guid")].play();
+  var firstWash = washes[first.getAttribute("data-guid")]
+  firstWash.load()
+  firstWash.play();
 
   deck.addEventListener("click", function(e) {
     var item = closest(e.target, (".point-of-interest"));
@@ -47,6 +49,7 @@ sections.forEach(function(section) {
       item.classList.remove("faded");
     });
     if (selected.getBoundingClientRect().top < 0) scroll(selected);
+    wash.load();
     setTimeout(wash.play.bind(wash), 500);
   });
 
