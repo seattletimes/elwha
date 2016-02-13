@@ -44,7 +44,7 @@
   "salmon": {
     "zone": "middle",
     "title": "Back and busy: salmon",
-    "text": "The middle Elwha and its tributaries went from no Coho at all before dam removal, to producing about 32,000 outgoing salmon fry in 2014. Chinook redd counts are up more than 350 percent and steelhead 300 percent from 2013 to 2015. Even sockeye have been spotted in Indian Creek, perhaps from landlocked Kokanee in Lake Sutherland that have rediscovered their ability to go to sea."
+    "text": "The middle Elwha and its tributaries went from no Coho at all before dam removal, to producing about 32,000 outgoing salmon fry in 2014. Chinook redd counts are up more than 350 percent and steelhead 300 percent from 2013 to 2015. Even sockeye have been spotted in Indian Creek, perhaps from landlocked kokanee in Lake Sutherland that have rediscovered their ability to go to sea."
   },
   "beavers": {
     "zone": "middle",
@@ -86,7 +86,7 @@
   },
   "vegetation": {
     "zone": "mouth",
-    "title": "Dams in place: the vegetation",
+    "title": "Before dam removal: the vegetation",
     "text": "The beach where the river flowed into the Strait of Juan de Fuca was steeply sloped and covered with ankle-turning cobble, starved for sand locked up behind the dams. Offshore, kelp grew abundantly in the nearshore waters – 15 species in all. The kelp roots grabbed onto the cobbled bottom. Red algae also thrived. "
   },
   "hermit_crabs": {
@@ -116,7 +116,7 @@
   "dungeness": {
     "zone": "mouth",
     "title": "Dungeness crab",
-    "text": "These tasty bottom-feeders are cruising the sandy bottom of the nearshore. Still not yet shown up in the intertidal zone – but greatly anticipated – are clams. Elwha Klallam tribal elders speak fondly of the clams their elders used to gather at the beach before the dams were built. Some used to head to the beach after a winter storm, cued by great clouds of gulls gathering to feast, too. Subtidal clams though are doing well and abundant, even increasing since the dams came down. "
+    "text": "These tasty bottom-feeders are cruising the sandy bottom of the nearshore. Still not yet shown up in the intertidal zone – but greatly anticipated – are clams. Lower Elwha Klallam tribal elders speak fondly of the clams their elders used to gather at the beach before the dams were built. Some used to head to the beach after a winter storm, cued by great clouds of gulls gathering to feast, too. Subtidal clams though are doing well and abundant, even increasing since the dams came down. "
   },
   "shrimp": {
     "zone": "mouth",

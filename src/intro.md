@@ -25,7 +25,7 @@ PacifiCorp did the math on keeping the Condit Dam on the White Salmon River in S
 
 It took an act of Congress in 1992 to finally free the Elwha, taking down the pair of dams that had blocked the 45-mile mountain river for a century.
 
-The big idea in all three cases was to get rid of hydropower dams no longer worth their maintenance and repair. The dams also had no fish passage, as required by modern environmental laws. Dam removal restored 70 miles of spawning habitat in the Elwha.  Fish already are recolonizing all of it.
+The big idea in all three cases was to get rid of hydropower dams no longer worth their maintenance and repair. The dams also had no fish passage, as required by modern environmental laws. Dam removal restored 70 miles of spawning habitat in the Elwha.
 
 The $325 million Elwha experiment remains the biggest dam removal project ever. With 83 percent of the Elwha watershed permanently protected in Olympic National Park, it offered a unique chance to start over.
 
