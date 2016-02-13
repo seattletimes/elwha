@@ -54,7 +54,7 @@
   "elk": {
     "zone": "middle",
     "title": "Visiting their winter range: elk",
-    "text": "Roosevelt elk are visiting both former lakebeds. Biologists are a little surprised – and relieved – that elk are browsing but not devouring more than 260,000 plantings, including tasty woody shrubs put in the lakebeds as part of a seven-year revegetation plan to crowd out weeds. They seem to particularly fancy Populus balsamifera, the lovely black cottonwood. "
+    "text": "Roosevelt elk are visiting both former lakebeds. Biologists are a little surprised – and relieved – that elk are browsing but not devouring more than 260,000 plantings, including tasty woody shrubs put in the lakebeds as part of a seven-year revegetation plan to crowd out weeds. They seem to particularly fancy <i>Populus balsamifera</i>, the lovely black cottonwood. "
   },
   "lower_chatter": {
     "zone": "lower",
@@ -92,7 +92,7 @@
   "hermit_crabs": {
     "zone": "mouth",
     "title": "Hermit crabs",
-    "text": "Unplugging the Elwha birthed Washington's newest beach. The river built it grain by grain, by moving a massive load of sediment from behind the dams. The vast majority of the sediment released from the reservoirs wound up in the Strait of Juan de Fuca, where winds, tides and the prevailing currents carried it mostly east of the river mouth. About 4.6 million cubic yards of sand and gravel deposited at the river delta, with drifts piled more than 15 feet deep on the bottom of the nearshore, below the tide line. Most of the mud was carried far away on the current."
+    "text": "Winners and losers are created in a big, quick habitat do-over, such as a rocky bottom changing in less than four years to a sandy one. Hermit crab were abundant in the near shore, snugged in the tiny spaces between the rocks. They got buried as the dams came down, and the Elwha got to work moving silt, sand, clay, cobble and rock. Most of the stuck sediment the river was expected to move (except during major flood events) has come out by now, completing the first major milestone of dam removal."
   },
   "starfish": {
     "zone": "mouth",
@@ -105,7 +105,8 @@
     "text": "Urchins are at home on rocky shores and kelp beds where they graze on algae. These spiny denizens were displaced by the reset of the nearshore from a rocky bottom back to sand. Lots of animals were put out of work in the nearshore as the deluge of sediment that had been stuck behind the dams piled up on their habitat. It's all part of the ongoing changes as the river and nearshore remake themselves to more of what they used to be like, and the animals that used to be there take their rightful place again. "
   },
   "mouth_after": {
-    "zone": "mouth"
+    "zone": "mouth",
+    "text": "Unplugging the Elwha birthed Washington's newest beach. The river built it grain by grain, by moving a massive load of sediment from behind the dams. The vast majority of the sediment released from the reservoirs wound up in the Strait of Juan de Fuca, where winds, tides and the prevailing currents carried it mostly east of the river mouth. About 4.6 million cubic yards of sand and gravel deposited at the river delta, with drifts piled more than 30 feed deep on the bottom of the nearshore, below the tide line. Most of the mud was carried far away on the current."
   },
   "forage_fish": {
     "zone": "mouth",
