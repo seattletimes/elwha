@@ -5,11 +5,15 @@ var logE = e => document.querySelector(".splash").innerHTML += e;
 
 var check = function(e) {
 
+  var playing = false;
+
+  aerial.addEventListener("playing", () => playing = true);
+
   setTimeout(function() {
 
     aerial.removeEventListener("canplay", check);
 
-    if (!aerial.currentTime || aerial.paused) {
+    if (!playing) {
 
       var cv = canvid({
         selector: ".aerial-video",
@@ -22,7 +26,7 @@ var check = function(e) {
       });
 
     }
-  }, 100);
+  }, 300);
 };
 
 //check for ability to play
