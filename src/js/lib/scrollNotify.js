@@ -41,7 +41,7 @@ var onScroll = function() {
       break;
 
       case subscribe.CLOSE:
-        if (bounds.top < window.innerHeight * 1.5) {
+        if (bounds.top < window.innerHeight * 3) {
           return sub.callback();
         }
       break;
