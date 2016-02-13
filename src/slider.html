@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%= json.project.title %></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="slider.css">
+    <%= t.include("partials/_head.html") %>
+  </head>
+  <body>
+
+    <responsive-child>
+
+      <image-slider id="slider">
+        <img src="./assets/photos/Lower_Elwha_River_Dam_2010.jpg">
+        <img src="./assets/photos/Lower_Elwha_River_DamSite_2016.jpg">
+      </image-slider>
+
+    </responsive-child>
+
+    <script src="slider.js" async></script>
+  </body>
+</html>
