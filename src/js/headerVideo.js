@@ -3,12 +3,13 @@ var aerial = document.querySelector(".splash video");
 
 var logE = e => document.querySelector(".splash").innerHTML += e;
 
-var check = function() {
+var check = function(e) {
+
   setTimeout(function() {
 
     aerial.removeEventListener("canplay", check);
 
-    if (!aerial.currentTime) {
+    if (!aerial.currentTime || aerial.paused) {
 
       var cv = canvid({
         selector: ".aerial-video",
