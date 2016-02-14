@@ -3,31 +3,48 @@ var aerial = document.querySelector(".splash video");
 
 var logE = e => document.querySelector(".splash").innerHTML += e;
 
-var check = function(e) {
+var playing = false;
+var switched = false;
 
-  var playing = false;
+var useCanvid = function() {
+  var cv = canvid({
+    selector: ".aerial-video",
+    videos: {
+      aerial: { src: "./assets/video/video.jpg", frames: 151, cols: 6 }
+    },
+    width: 532,
+    height: 300,
+    loaded: () => cv.play("aerial")
+  });
+};
 
-  aerial.addEventListener("playing", () => playing = true);
-
+var test = function() {
   setTimeout(function() {
 
     aerial.removeEventListener("canplay", check);
 
-    if (!playing) {
-
-      var cv = canvid({
-        selector: ".aerial-video",
-        videos: {
-          aerial: { src: "./assets/video/video.jpg", frames: 151, cols: 6 }
-        },
-        width: 532,
-        height: 300,
-        loaded: () => cv.play("aerial")
-      });
-
+    if (!playing && !switched && window.innerWidth < 800) {
+      useCanvid();
+      switched = true;
     }
   }, 300);
 };
 
-//check for ability to play
-aerial.addEventListener("canplay", check);
+var check = function(e) {
+  aerial.addEventListener("playing", () => playing = true);
+  test();
+};
+
+if (aerial.readyState == 4) {
+  //schedule playback test now
+  test();
+} else {
+  //wait for video to load, then check
+  aerial.addEventListener("loadeddata", check);
+  aerial.addEventListener("canplay", check);
+}
+
+document.querySelector(".splash").addEventListener("click", function() {
+  if (!switched) aerial.play();
+});
+
