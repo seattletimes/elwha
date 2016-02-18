@@ -24,6 +24,7 @@ class WashEffect {
   }
 
   load() {
+    if (this.pattern) return; //don't load the image twice
     var source = new Image();
     source.src = this.canvas.getAttribute("data-src");
     source.onload = () => this.imageLoaded(source);
